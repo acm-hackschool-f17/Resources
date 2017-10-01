@@ -69,6 +69,10 @@ Bonus items (if you have time; these are not needed for our first Learn session)
   versions are introducing, often leading to unexpected breakages when the
   newest version is incompatible with other code you're using.
 
+* (Advanced) If you're on a Mac, you'll eventually want
+  [Homebrew](https://brew.sh/) to manage installing command-line tools and
+  [n](https://github.com/tj/n) to manage different versions of Node.js.
+
 
 ## After Session 1
 
