@@ -11,11 +11,24 @@ new topic with mentors on-hand to help, and then spend the following week
 building out a mini-project to apply it. By the end, you'll have glimpsed a
 little bit of everything behind the websites you visit every day.
 
-In this repository, you'll find a guidemap to all the topics we introduce this quarter, and links to helpful resources. 
+In this repository, you'll find a guidemap to all the topics we introduce this
+quarter, and links to helpful resources.
 
 We hope you have a blast this quarter, and encourage you to reach out to any of
-us if you have any questions or comments. Private concerns can be addressed to the current Hackschool Director, Shannon Phu, at [skphu@ucla.edu](mailto:skphu@ucla.edu).
- 
+us if you have any questions or comments. Private concerns can be addressed to
+the current Hackschool Director, Shannon Phu, at
+[skphu@ucla.edu](mailto:skphu@ucla.edu).
+
+<!-- MarkdownTOC autolink=true bracket="round" lowercase_only_ascii="false" -->
+
+- [Essential Links](#essential-links)
+- [What You'll Need for Session 1 - Learn](#what-youll-need-for-session-1---learn)
+- [After Session 1](#after-session-1)
+    - [Helpful Docs & Tools](#helpful-docs--tools)
+    - [Learning Beyond Hackschool](#learning-beyond-hackschool)
+
+<!-- /MarkdownTOC -->
+
 
 ## Essential Links 
 
@@ -76,7 +89,7 @@ For JavaScript:
 
 * [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) if you've never programmed before
 
-* A [Reintroduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) if you've touched JS a bit before
+* [A Reintroduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) if you've touched JS a bit before
 
 * [JavaScript 30](https://javascript30.com/) for a free 30-day series of daily
   mini-projects
