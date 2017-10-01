@@ -64,7 +64,10 @@ Bonus items (if you have time; these are not needed for our first Learn session)
   To prevent this, install Xcode from the App Store. Then run `xcode-select --install` in Terminal. This will install command-line tools that we'll need
   later on. Here's a [tutorial with screenshots](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
 
-* Download and install the latest version of [Node.js](https://nodejs.org/en/)
+* Download and install the LTS version of [Node.js](https://nodejs.org/en/). 
+  We don't recommend using the latest version because of how quickly new Node
+  versions are introducing, often leading to unexpected breakages when the
+  newest version is incompatible with other code you're using.
 
 
 ## After Session 1
@@ -77,6 +80,8 @@ Bonus items (if you have time; these are not needed for our first Learn session)
 
 * You'll find the [Mozilla Developer Network (MDN) documentation](https://developer.mozilla.org/en-US/docs/Web) very helpful
 for looking up the particulars of a built-in function or CSS property.
+
+* [Modern JavaScript Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet/blob/master/readme.md)
 
 
 ### Learning Beyond Hackschool
