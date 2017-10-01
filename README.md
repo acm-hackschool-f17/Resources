@@ -78,7 +78,10 @@ Bonus items (if you have time; these are not needed for our first Learn session)
 
 ### Helpful Docs & Tools
 
-* [http://jsbin.com/](http://jsbin.com/) for quick prototypes
+* [http://jsbin.com/](http://jsbin.com/) for quick in-browser prototypes
+
+* [Mancy](https://github.com/princejwesley/Mancy) if you want an interactive
+  JavaScript prompt (called a REPL: Read, Evaluate, Print, Loop)
 
 * [http://codepen.io/](http://codepen.io/) to share ideas with other people
 
