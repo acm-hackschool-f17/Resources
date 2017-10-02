@@ -38,7 +38,7 @@
 </div>
 ```
 
-<img src="https://lh4.googleusercontent.com/gvtDD-gCq4wpm7_OScu0UQhW1TIOc_QsqXALtynb8pKmaHeJHzhgUdnz6LKVChWXBcd8iOw-D5AaNiKccJZn-94OiMjvxYlul3PnFvIJ1tk_ECrydVdQtwvw3bFyCVgVPTksgf1F" style="width: 200px"/>
+<img src="https://lh4.googleusercontent.com/gvtDD-gCq4wpm7_OScu0UQhW1TIOc_QsqXALtynb8pKmaHeJHzhgUdnz6LKVChWXBcd8iOw-D5AaNiKccJZn-94OiMjvxYlul3PnFvIJ1tk_ECrydVdQtwvw3bFyCVgVPTksgf1F" width="200px">
 
 
 
@@ -49,7 +49,7 @@
 
 <u>Example</u>
 
-<img src="https://lh4.googleusercontent.com/77DiON_TfywT5RQgmB2PgeGSdWl8-CMQCulWn9D4o-U-A8r5qONych2FiSThZ1SBBO1JGB1ewQ4s55tCj6sDg9Fddu2XKCh4gTz5tD2OJzp-lfT0q-c5Mnt2uxer7PCRi52AD76FPls" style="width: 200px"/>
+<img src="https://lh4.googleusercontent.com/77DiON_TfywT5RQgmB2PgeGSdWl8-CMQCulWn9D4o-U-A8r5qONych2FiSThZ1SBBO1JGB1ewQ4s55tCj6sDg9Fddu2XKCh4gTz5tD2OJzp-lfT0q-c5Mnt2uxer7PCRi52AD76FPls" width="200px"/>
 
 
 
@@ -63,7 +63,7 @@
 <p>Here is some text</p>
 ```
 
-<img src="https://lh5.googleusercontent.com/WDp6zOr5EQhbrh-LVKkydt_k7o8ktnW36htxEnphG7xRfQHZt60R-36B-_T3kn--hNdvAlyzzJ1A5naPECve-023somagxWFQptjLdROrcQmIBcT7a88VnFnoDiE_rGLACcsB8dA" style="width: 200px"/>
+<img src="https://lh5.googleusercontent.com/WDp6zOr5EQhbrh-LVKkydt_k7o8ktnW36htxEnphG7xRfQHZt60R-36B-_T3kn--hNdvAlyzzJ1A5naPECve-023somagxWFQptjLdROrcQmIBcT7a88VnFnoDiE_rGLACcsB8dA" width="200px"/>
 
 
 
@@ -78,7 +78,7 @@
 <img src=“https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg”/>
 ```
 
-<img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" style="width: 200px"/>
+<img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" width="200px"/>
 
 
 
@@ -95,7 +95,7 @@
 <input type="text" placeholder="input stuff here">
 ```
 
-<img src="https://lh6.googleusercontent.com/RiWsuVfuU-oJRiEJiUupGrKBFXYztDNc-g48e6njwsTtXCV5XAUKbxAy-rgT2AAypAJnc6gbKPpKR97JADqQiMWoiMqeywzYhBGWQdbprYR2buptLFGmQ0xYOGD1HRlbtHKdrwGKHgo" style="width: 200px"/>
+<img src="https://lh6.googleusercontent.com/RiWsuVfuU-oJRiEJiUupGrKBFXYztDNc-g48e6njwsTtXCV5XAUKbxAy-rgT2AAypAJnc6gbKPpKR97JADqQiMWoiMqeywzYhBGWQdbprYR2buptLFGmQ0xYOGD1HRlbtHKdrwGKHgo" width="200px"/>
 
 
 
@@ -110,7 +110,7 @@
 <a href=“www.google.com”>Click Here to go to Google</a>
 ```
 
-<img src="https://lh3.googleusercontent.com/-MR5GH1teD2a48f4vlbeGiuF0GvLzq7uRETIOzu4_-2Ps8FIS6fHK5kKZqrR50Co3WeLQ-_7wLfJQloRgcsOnu-_N26CpiJRrD-_CDHeJbsYnOMCn31DWVk8ZMXxh29j6htAJGkkB64" style="width: 200px"/>
+<img src="https://lh3.googleusercontent.com/-MR5GH1teD2a48f4vlbeGiuF0GvLzq7uRETIOzu4_-2Ps8FIS6fHK5kKZqrR50Co3WeLQ-_7wLfJQloRgcsOnu-_N26CpiJRrD-_CDHeJbsYnOMCn31DWVk8ZMXxh29j6htAJGkkB64" width="200px"/>
 
 
 
@@ -133,7 +133,7 @@
 </ol>
 ```
 
-<img src="https://lh6.googleusercontent.com/H6JbFg-tFCryLOap8AwKOFVQZkB8BW853oqud_NoKJpfS9O45TrCsqCDffm93Q2i1T4PLKB2bgf6ElCm6UOGovd-rvoBhiRKa5eHnkbOnGWTkef95FGgVe7VRWnaDz1KLRWet9to0dE" style="width: 200px"/>
+<img src="https://lh6.googleusercontent.com/H6JbFg-tFCryLOap8AwKOFVQZkB8BW853oqud_NoKJpfS9O45TrCsqCDffm93Q2i1T4PLKB2bgf6ElCm6UOGovd-rvoBhiRKa5eHnkbOnGWTkef95FGgVe7VRWnaDz1KLRWet9to0dE" width="200px"/>
 
 ```
 <ul>
@@ -143,7 +143,7 @@
 </ul>
 ```
 
-<img src="https://lh4.googleusercontent.com/uE34mFhdRGMVmkpSbF4P1PxPMt7iVJyGohJ94kxptugcrejGBULE_B_Tc7mlmNOyRDNRU1UiMOFIrdK3LokB6lnsL_gXI0aZawSFyEADQl9cSYFMqWmO_FHvY6sFLcNCuosYWF22Xbg" style="width: 200px"/>
+<img src="https://lh4.googleusercontent.com/uE34mFhdRGMVmkpSbF4P1PxPMt7iVJyGohJ94kxptugcrejGBULE_B_Tc7mlmNOyRDNRU1UiMOFIrdK3LokB6lnsL_gXI0aZawSFyEADQl9cSYFMqWmO_FHvY6sFLcNCuosYWF22Xbg" width="200px"/>
 
 
 
@@ -161,7 +161,7 @@
 <u><i>This text is underlined and italicized</i></u>
 ```
 
-<img src="https://lh5.googleusercontent.com/ychGE6cA-9jgw9qtdw34sCu1n0RMkdSr0Dq1XcnIdYWTGcddXCc4BkBIVOi_dsARNSWQp3KNnTVI19IZj9cBjuYdVsOWIwVLhfvRkYmGZzJbjaMmeBWcR6_I8LJq75JXPiJkGpxM" style="width: 500px"/>
+<img src="https://lh5.googleusercontent.com/ychGE6cA-9jgw9qtdw34sCu1n0RMkdSr0Dq1XcnIdYWTGcddXCc4BkBIVOi_dsARNSWQp3KNnTVI19IZj9cBjuYdVsOWIwVLhfvRkYmGZzJbjaMmeBWcR6_I8LJq75JXPiJkGpxM" width="500px"/>
 
 
 
@@ -177,7 +177,7 @@
 <p>My mother has <span style="color:blue">blue</span> eyes</p>
 ```
 
-<img src="https://lh3.googleusercontent.com/G0fxHQDJ6qjYMoW9aSyaUXgEHOQ4DFhfX-aM4JvF5F8br6_j8DBQmfASTWXrOKJUvFdVDKMNjgHOiDzWurq3KNJF6WjkCYwHNhGeH-u_Lp77NTOe1CtZox563yr7M-I_2y0fsAkC" style="width: 200px"/>
+<img src="https://lh3.googleusercontent.com/G0fxHQDJ6qjYMoW9aSyaUXgEHOQ4DFhfX-aM4JvF5F8br6_j8DBQmfASTWXrOKJUvFdVDKMNjgHOiDzWurq3KNJF6WjkCYwHNhGeH-u_Lp77NTOe1CtZox563yr7M-I_2y0fsAkC" width="200px"/>
 
 
 
@@ -399,7 +399,7 @@ p.ex {
 }
 ```
 
-<img src="https://lh4.googleusercontent.com/gqY3YSTKcQdD7fDHIIRJr7e2DuAFCdrK6Kc7kxyz8kdqfdtY61-1gfppkDhYlzvHU6HUtdeckhZGZ_qLP-zqJ_3_1EhtUPYEHPUbbNq-w7MmgQONFF_HQhhkMJMrw06gg7iwx_Jh"  style="width: 100px"/>
+<img src="https://lh4.googleusercontent.com/gqY3YSTKcQdD7fDHIIRJr7e2DuAFCdrK6Kc7kxyz8kdqfdtY61-1gfppkDhYlzvHU6HUtdeckhZGZ_qLP-zqJ_3_1EhtUPYEHPUbbNq-w7MmgQONFF_HQhhkMJMrw06gg7iwx_Jh" width="100px"/>
 
 
 
