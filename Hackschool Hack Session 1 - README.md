@@ -78,7 +78,7 @@
 <img src=“https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg”/>
 ```
 
-<img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" width="200px"/>
+<img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" width="300px"/>
 
 
 
@@ -545,7 +545,7 @@ h3 {
 }
 ```
 
-![img](https://lh4.googleusercontent.com/phkTfvGNu-ZMmdm55uj_78F8rV-CqDqIrN9Lfbl2heJwQH-FK4yDs8mb5mR-0ckOjo5b1Ls6oCYVek68SoCjSFar-f_MjJAnCpR6OubYByIsM7XnJh1L26wEH05rdrYSDWfUh1jQ)
+<img src="https://lh4.googleusercontent.com/phkTfvGNu-ZMmdm55uj_78F8rV-CqDqIrN9Lfbl2heJwQH-FK4yDs8mb5mR-0ckOjo5b1Ls6oCYVek68SoCjSFar-f_MjJAnCpR6OubYByIsM7XnJh1L26wEH05rdrYSDWfUh1jQ" width="200px"/>
 
 ### <u>Font Properties</u>
 
