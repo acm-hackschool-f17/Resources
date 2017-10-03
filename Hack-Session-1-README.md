@@ -41,6 +41,8 @@
   - Miscellaneous
     - cursor
 
+---
+
 ## <a name="HS1-html-setup">HTML Setup</a>
 
 ```
@@ -80,7 +82,7 @@
 
 <img src="https://lh4.googleusercontent.com/gvtDD-gCq4wpm7_OScu0UQhW1TIOc_QsqXALtynb8pKmaHeJHzhgUdnz6LKVChWXBcd8iOw-D5AaNiKccJZn-94OiMjvxYlul3PnFvIJ1tk_ECrydVdQtwvw3bFyCVgVPTksgf1F" width="200px">
 
-
+---
 
 ### <a name="HS1-headers">\<h1>, \<h2>, \<h3>, ... (Headers)</a>
 
@@ -91,7 +93,7 @@
 
 <img src="https://lh4.googleusercontent.com/77DiON_TfywT5RQgmB2PgeGSdWl8-CMQCulWn9D4o-U-A8r5qONych2FiSThZ1SBBO1JGB1ewQ4s55tCj6sDg9Fddu2XKCh4gTz5tD2OJzp-lfT0q-c5Mnt2uxer7PCRi52AD76FPls" align="center" width="200px"/>
 
-
+---
 
 ### <a name="HS1-p">\<p></a>
 
@@ -105,7 +107,7 @@
 
 <img src="https://lh5.googleusercontent.com/WDp6zOr5EQhbrh-LVKkydt_k7o8ktnW36htxEnphG7xRfQHZt60R-36B-_T3kn--hNdvAlyzzJ1A5naPECve-023somagxWFQptjLdROrcQmIBcT7a88VnFnoDiE_rGLACcsB8dA" width="200px"/>
 
-
+---
 
 ### <a name="HS1-img">\<img></a>
 
@@ -120,7 +122,7 @@
 
 <img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" width="300px"/>
 
-
+---
 
 ### <a name="HS1-input">\<input></a>
 
@@ -137,7 +139,7 @@
 
 <img src="https://lh6.googleusercontent.com/RiWsuVfuU-oJRiEJiUupGrKBFXYztDNc-g48e6njwsTtXCV5XAUKbxAy-rgT2AAypAJnc6gbKPpKR97JADqQiMWoiMqeywzYhBGWQdbprYR2buptLFGmQ0xYOGD1HRlbtHKdrwGKHgo" width="200px"/>
 
-
+---
 
 ### <a name="HS1-a">\<a> (Links/Anchor Tags)</a>
 
@@ -152,7 +154,7 @@
 
 <img src="https://lh3.googleusercontent.com/-MR5GH1teD2a48f4vlbeGiuF0GvLzq7uRETIOzu4_-2Ps8FIS6fHK5kKZqrR50Co3WeLQ-_7wLfJQloRgcsOnu-_N26CpiJRrD-_CDHeJbsYnOMCn31DWVk8ZMXxh29j6htAJGkkB64" width="200px"/>
 
-
+---
 
 ### <a name="HS1-lists">\<ol>, \<ul>, \<li> (Lists)</a>
 
@@ -185,7 +187,7 @@
 
 <img src="https://lh4.googleusercontent.com/uE34mFhdRGMVmkpSbF4P1PxPMt7iVJyGohJ94kxptugcrejGBULE_B_Tc7mlmNOyRDNRU1UiMOFIrdK3LokB6lnsL_gXI0aZawSFyEADQl9cSYFMqWmO_FHvY6sFLcNCuosYWF22Xbg" width="200px"/>
 
-
+---
 
 ### <a name="HS1-biu">\<b>, \<i>, \<u></a>
 
@@ -203,7 +205,7 @@
 
 <img src="https://lh5.googleusercontent.com/ychGE6cA-9jgw9qtdw34sCu1n0RMkdSr0Dq1XcnIdYWTGcddXCc4BkBIVOi_dsARNSWQp3KNnTVI19IZj9cBjuYdVsOWIwVLhfvRkYmGZzJbjaMmeBWcR6_I8LJq75JXPiJkGpxM" width="500px"/>
 
-
+---
 
 ### <a name="HS1-span">\<span></a>
 
@@ -219,7 +221,7 @@
 
 <img src="https://lh3.googleusercontent.com/G0fxHQDJ6qjYMoW9aSyaUXgEHOQ4DFhfX-aM4JvF5F8br6_j8DBQmfASTWXrOKJUvFdVDKMNjgHOiDzWurq3KNJF6WjkCYwHNhGeH-u_Lp77NTOe1CtZox563yr7M-I_2y0fsAkC" width="200px"/>
 
-
+---
 
 ## CSS
 
