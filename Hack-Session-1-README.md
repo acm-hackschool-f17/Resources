@@ -196,7 +196,7 @@
 - Use \<b> to **bold** text
 - Use \<i> to *italicize* text
 - Use \<u> to <u>underline</u> text
-- Refer to the CSS section for more styling.
+- Refer to the <a href="#HS1-CSS">CSS</a> section for more styling.
 
 #### Example
 
@@ -531,7 +531,7 @@ padding: 10px 5px;
 padding: 10px;
 ```
 
-- Refer to the above section on **margin** for the meaning of the above statements
+- Refer to the above section on <a href="HS1-margin">**margin**</a> for the meaning of the above statements
 
 
 ---
