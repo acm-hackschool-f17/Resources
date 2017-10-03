@@ -89,7 +89,7 @@
 
 <u>Example</u>
 
-<img src="https://lh4.googleusercontent.com/77DiON_TfywT5RQgmB2PgeGSdWl8-CMQCulWn9D4o-U-A8r5qONych2FiSThZ1SBBO1JGB1ewQ4s55tCj6sDg9Fddu2XKCh4gTz5tD2OJzp-lfT0q-c5Mnt2uxer7PCRi52AD76FPls" width="200px"/>
+<img src="https://lh4.googleusercontent.com/77DiON_TfywT5RQgmB2PgeGSdWl8-CMQCulWn9D4o-U-A8r5qONych2FiSThZ1SBBO1JGB1ewQ4s55tCj6sDg9Fddu2XKCh4gTz5tD2OJzp-lfT0q-c5Mnt2uxer7PCRi52AD76FPls" align="center" width="200px"/>
 
 
 
