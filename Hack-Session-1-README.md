@@ -33,8 +33,8 @@
     - <a href="#HS1-padding">padding</a>
     - <a href="#HS1-padding-sides">padding-bottom, padding-top, padding-left, padding-right</a>
   - <a href="#HS1-text-properties">Text Properties</a>
+    - <a href="#HS1-text-align">text-align</a>
     - <a href="#HS1-text-decoration">text-decoration</a>
-    - <a href="#HS1-text-algin">text-align</a>
   - <a href="#HS1-font-properties">Font Properties</a>
     - <a href="#HS1-font">font</a>
     - <a href="#HS1-font-family">font-family</a>
@@ -245,7 +245,7 @@ In your HTML file after your \<title> tag in your \<head>, add the following lin
 	<link rel="stylesheet" type="text/css" href="style.css"/></head>
 ```
 
-
+---
 
 ### <a name="HS1-css-general-syntax">CSS General Syntax</a>
 
@@ -307,6 +307,7 @@ p {
       ```
 
 
+---
 
 ### <a name="HS1-opacity">opacity</a>
 
@@ -319,7 +320,7 @@ p {
 opacity: 0.5;
 ```
 
-
+---
 
 ### <a name="HS1-background-color">background-color</a>
 
@@ -342,7 +343,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-background-image">background-image</a>
 
@@ -360,7 +361,7 @@ body {
 }
 ```
 
-
+---
 
 ### <a name="HS1-background-size">background-size</a>
 
@@ -376,7 +377,7 @@ div {
 }
 ```
 
-
+---
 
 ### <a name="HS1-border">border</a>
 
@@ -397,7 +398,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-border-sides">border-bottom, border-top, border-left, border-right</a>
 
@@ -411,7 +412,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-basic-box-properties">Basic Box Properties</a>
 
@@ -429,7 +430,7 @@ img {
 
 ![img](https://lh5.googleusercontent.com/yPF_bD21zdDlu5btqN1JLDTvaV84qYxXDbi7W_rvYhAwEwuBEt2aMEfV3vRlTEinQ21taSY5djmyZritcUB9Q_FfKNFJV5pOVL98FXPvmBjVxDtqUrMSWg8-R58kRk5tHC5O5NXo)
 
-
+---
 
 ### <a name="HS1-width-height">width, height</a>
 
@@ -446,7 +447,7 @@ p.ex {
 
 <img src="https://lh4.googleusercontent.com/gqY3YSTKcQdD7fDHIIRJr7e2DuAFCdrK6Kc7kxyz8kdqfdtY61-1gfppkDhYlzvHU6HUtdeckhZGZ_qLP-zqJ_3_1EhtUPYEHPUbbNq-w7MmgQONFF_HQhhkMJMrw06gg7iwx_Jh" width="100px"/>
 
-
+---
 
 ### <a name="HS1-margin">margin</a>
 
@@ -489,6 +490,8 @@ margin: 10px;
 - all four margins are 10px
 
 
+---
+
 
 ### <a name="HS1-margin-sides">margin-bottom, margin-left, margin-right, margin-top</a>
 
@@ -502,7 +505,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-padding">padding</a>
 
@@ -531,6 +534,8 @@ padding: 10px;
 - Refer to the above section on **margin** for the meaning of the above statements
 
 
+---
+
 
 ### <a name="HS1-padding-sides">padding-bottom, padding-left, padding-right, padding-top</a>
 
@@ -544,7 +549,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-text-properties">Text Properties</a>
 
@@ -568,7 +573,7 @@ h3 {
 }
 ```
 
-
+---
 
 ### <a name="HS1-text-decoration">text-decoration</a>
 
@@ -592,6 +597,8 @@ h3 {
 
 <img src="https://lh4.googleusercontent.com/phkTfvGNu-ZMmdm55uj_78F8rV-CqDqIrN9Lfbl2heJwQH-FK4yDs8mb5mR-0ckOjo5b1Ls6oCYVek68SoCjSFar-f_MjJAnCpR6OubYByIsM7XnJh1L26wEH05rdrYSDWfUh1jQ" width="200px"/>
 
+---
+
 ### <a name="HS1-font-properties">Font Properties</a>
 
 ### <a name="HS1-font">font</a>
@@ -612,7 +619,7 @@ p.ex2 {
 }
 ```
 
-
+---
 
 ### <a name="HS1-font-family">font-family</a>
 
@@ -627,7 +634,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-font-size">font-size</a>
 
@@ -655,7 +662,7 @@ p {
 }
 ```
 
-
+---
 
 ### <a name="HS1-font-weight">font-weight</a>
 
@@ -677,7 +684,7 @@ p.thicker {
 }
 ```
 
-
+---
 
 ### <a name="HS1-miscellaneous">Miscellaneous</a>
 
@@ -701,7 +708,7 @@ span.wait {
 }
 ```
 
-
+---
 
 ## Classes and IDs
 
