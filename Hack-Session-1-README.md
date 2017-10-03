@@ -42,6 +42,9 @@
     - <a href="#HS1-font-weight">font-weight</a>
   - <a href="#HS1-miscellaneous">Miscellaneous</a>
     - <a href="#HS1-cursor">cursor</a>
+- Classes and IDs
+  - <a href="#HS1-classes">Classes</a>
+  - <a href="#HS1-ids">IDs</a>
 
 ---
 
@@ -712,7 +715,7 @@ span.wait {
 
 ## Classes and IDs
 
-### Classes
+### <a name="HS1-classes">Classes</a>
 
 - The class selector selects elements with a specific class attribute
 - Classes should be used when you want multiple HTML elements to have the same style.
@@ -730,11 +733,11 @@ span.wait {
 <p class="center">Red and center-aligned paragraph.</p> 
 ```
 
-<img src="https://lh3.googleusercontent.com/OF35-6kLqqyKNATOdq5CvuKykPZS_zupxf6FrGIVPdUAHIom2Z5OW9vUyFD1wesOGkH_ia3dPM3OpYlXsRbhLcS7gxzf7wlpxBA00j2xoBoQLcs-VDvF-wlbH7oQ3qZ5aE_NQg3-" width="500px">
+<img src="https://lh3.googleusercontent.com/OF35-6kLqqyKNATOdq5CvuKykPZS_zupxf6FrGIVPdUAHIom2Z5OW9vUyFD1wesOGkH_ia3dPM3OpYlXsRbhLcS7gxzf7wlpxBA00j2xoBoQLcs-VDvF-wlbH7oQ3qZ5aE_NQg3-">
 
 ---
 
-### IDs
+### <a name="HS1-ids">IDs</a>
 
 - The id selector uses the id attribute of an HTML element to select a specific element.
 - The id of an element should be unique within a page, so the id selector is used to select one unique element!
@@ -754,5 +757,5 @@ span.wait {
 <p>This paragraph is not affected by the style.</p>
 ```
 
-<img src="https://lh6.googleusercontent.com/HE0dLP73JdmWGvkx69PYVLX7IXglp54KFlYcPkvkkjd8nJrzLewcBzCbgRoYivy3Vwh3-iDGU2P_emxtOjSfGUkKTSlQ2doFigoYeW-g8HgSTnlJdsPqcSt_tWPEmgWtzxWsCq9J" width="700px">
+<img src="https://lh6.googleusercontent.com/HE0dLP73JdmWGvkx69PYVLX7IXglp54KFlYcPkvkkjd8nJrzLewcBzCbgRoYivy3Vwh3-iDGU2P_emxtOjSfGUkKTSlQ2doFigoYeW-g8HgSTnlJdsPqcSt_tWPEmgWtzxWsCq9J">
 
