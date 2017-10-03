@@ -62,7 +62,7 @@
 </html>
 ```
 
-- <!DOCTYPE html> lets the browser know it’s an HTML doc
+- \<!DOCTYPE html> lets the browser know it’s an HTML doc
 - \<html> and \</html> tags denote where the content of HTML goes
 - \<head> tag includes information that isn’t displayed, such as the title of the webpage
 - \<title> tag defines a title for the page used in the browser toolbar and search results
