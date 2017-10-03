@@ -70,7 +70,7 @@
 - The **div** tag is the most generic tag used to hold any content
 - Used to divide the website into different sections
 
-<u>Example</u>
+#### Example
 
 ```
 <div>
@@ -87,7 +87,7 @@
 - A **header** tag can be from 1-6, with 1 being the most important/largest, to 6 being the least important/smallest.
 - Use header tags to express section headers and other important information.
 
-<u>Example</u>
+#### Example
 
 <img src="https://lh4.googleusercontent.com/77DiON_TfywT5RQgmB2PgeGSdWl8-CMQCulWn9D4o-U-A8r5qONych2FiSThZ1SBBO1JGB1ewQ4s55tCj6sDg9Fddu2XKCh4gTz5tD2OJzp-lfT0q-c5Mnt2uxer7PCRi52AD76FPls" align="center" width="200px"/>
 
@@ -112,7 +112,7 @@
 - An **img** tag is an image tag, and it is used to insert images.
 - img tags generally have a src attribute, whose value is a URL to an image.
 
-<u>Example</u>
+#### Example
 
 ```
 <img src=“https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg”/>
@@ -129,7 +129,7 @@
 - You can also have a placeholder.
 - Note that there are many ways to handle input; some ways are more appropriate than others in certain situations.
 
-<u>Example</u>
+#### Example
 
 ```
 <input type="text" placeholder="input stuff here">
@@ -144,7 +144,7 @@
 - An **anchor** is a piece of text which marks the beginning and/or the end of a hypertext link. 
 - The text between the opening **tag** and the closing **tag** is either the start or destination (or both) of a link.
 
-<u>Example</u>
+#### Example
 
 ```
 <a href=“www.google.com”>Click Here to go to Google</a>
@@ -164,7 +164,7 @@
 
 - To populate our list, we use \<li>\</li> tags, which stand for **l**ist **i**tems.
 
-<u>Examples</u>
+#### Examples
 
 ```
 <ol>		
@@ -194,7 +194,7 @@
 - Use \<u> to <u>underline</u> text
 - Refer to the CSS section for more styling.
 
-<u>Example</u>
+#### Example
 
 ```
 <b>This text is bolded.</b>
@@ -211,7 +211,7 @@
 - The \<span> tag provides no visual change by itself.
 - The \<span> tag provides a way to add a hook to a part of a text or a part of a document.
 
-<u>Example</u>
+#### Example
 
 ```
 <p>My mother has <span style="color:blue">blue</span> eyes</p>
@@ -247,7 +247,7 @@ In your HTML file after your \<title> tag in your \<head>, add the following lin
 
 - property: value
 
-<u>Example</u>
+#### Example
 
 ```
 p {
@@ -309,7 +309,7 @@ p {
 - Sets the opacity (transparency) level for an element
 - Decimal number ranging between 0.0 and 1.0
 
-<u>Example</u>
+#### Example
 
 ```
 opacity: 0.5;
@@ -322,7 +322,7 @@ opacity: 0.5;
 - Sets the background color of a single element
 - Legal colors can be found above under the **color** section
 
-<u>Example</u>
+#### Example
 
 ```
 body {
@@ -347,7 +347,7 @@ p {
 - **Tip: **Always set a background-color to be used if the image is unavailable.
 - To reference an image url in a .css file, use the syntax url(*your file path here*)
 
-<u>Example</u>
+#### Example
 
 ```
 body {
@@ -362,7 +362,7 @@ body {
 
 - Specifies the size of the background images
 
-<u>Example</u>
+#### Example
 
 ```
 div {
@@ -385,7 +385,7 @@ div {
     - none
     - A list of more legal names can be found at: https://www.w3schools.com/css/css_border.asp
 
-<u>Example</u>
+#### Example
 
 ```
 p {
@@ -399,7 +399,7 @@ p {
 
 - Sets the border properties of a specific side in one declaration
 
-<u>Example</u>
+#### Example
 
 ```
 p {
@@ -414,7 +414,8 @@ p {
 ### float
 
 - Specifies whether or not a box (an element) should float
-- <u>Example</u>
+
+#### Example
 
 ```
 img {
@@ -430,7 +431,7 @@ img {
 
 - Sets the width and height of an element
 
-<u>Example</u>
+#### Example
 
 ```
 p.ex {
@@ -449,7 +450,7 @@ p.ex {
 - This property can have from one to four values.
 - **Note:** Negative values are allowed (might be used to hide things)
 
-<u>Examples</u>
+#### Examples
 
 ```
 p {
@@ -489,7 +490,7 @@ margin: 10px;
 
 - Sets the margin property of a specific side in one declaration
 
-<u>Example</u>
+#### Example
 
 ```
 p {
@@ -503,7 +504,7 @@ p {
 
 - Sets all the padding properties in one declaration
 
-<u>Examples</u>
+#### Examples
 
 ```
 p {
@@ -531,7 +532,7 @@ padding: 10px;
 
 - Sets the padding property of a specific side in one declaration
 
-<u>Example</u>
+#### Example
 
 ```
 p {
@@ -547,7 +548,7 @@ p {
 
 - Specifies the horizontal alignment of text in an element
 
-<u>Example</u>
+#### Example
 
 ```
 h1 {
@@ -569,7 +570,7 @@ h3 {
 
 - Specifies the decoration added to text
 
-<u>Example</u>
+#### Example
 
 ```
 h1 {
@@ -595,7 +596,7 @@ h3 {
 - The properties that can be set, are (in order): "font-style font-variant font-weight font-size/line-height font-family"
 - The font-size and font-family values are required. If one of the other values are missing, the default values will be inserted, if any.
 
-<u>Examples</u>
+#### Examples
 
 ```
 p.ex1 {
@@ -614,7 +615,7 @@ p.ex2 {
 - Specifies the font for an element
 - The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
 
-<u>Example</u>
+#### Example
 
 ```
 p {
@@ -634,7 +635,7 @@ p {
   - xx-large
   - A full list of legal sizes can be found at: https://www.w3schools.com/cssref/pr_font_font-size.asp
 
-<u>Examples</u>
+#### Examples
 
 ```
 h1 {
@@ -656,7 +657,7 @@ p {
 
 -  Sets how thick or thin characters in text should be displayed
 
-<u>Examples</u>
+#### Examples
 
 ```
 p.normal {
@@ -679,6 +680,8 @@ p.thicker {
 ### cursor
 
 - Specifies the type of cursor to be displayed when pointing on an element
+
+#### Example
 
 ```
 span.crosshair {
