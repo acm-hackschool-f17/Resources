@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-- <a href="#html-setup">HTML Setup</a>
-- Useful HTML Tags
-  - div
-  - h1, h2, h3, ...
-  - p
-  - img
-  - input
-  - a (Links/Anchor Tags)
-  - ol, ul, li (Lists)
-  - b, i, u
-  - span
+- <a href="#HS1-html-setup">HTML Setup</a>
+- <a href="#HS1-useful-html-tags">Useful HTML Tags</a>
+  - <a href="#HS1-div">div</a>
+  - <a href="#HS1-headers">h1, h2, h3, ...</a>
+  - <a href="#HS1-p">p</a>
+  - <a href="#HS1-img">img</a>
+  - <a href="#HS1-input">input</a>
+  - <a href="#HS1-a">a (Links/Anchor Tags)</a>
+  - <a href="#HS1-lists">ol, ul, li (Lists)</a>
+  - <a href="#HS1-biu">b, i, u</a>
+  - <a href="#HS1-span">span</a>
 - CSS General Syntax
 - Useful CSS Properties
   - Background and Border Properties
@@ -41,7 +41,7 @@
   - Miscellaneous
     - cursor
 
-## <a name="html-setup">HTML Setup</a>
+## <a name="HS1-html-setup">HTML Setup</a>
 
 ```
 <!DOCTYPE html>
@@ -63,9 +63,9 @@
 
 
 
-## Useful HTML Tags
+## <a name="HS1-useful-html-tags">Useful HTML Tags</a>
 
-### \<div>
+### <a name="HS1-div">\<div></a>
 
 - The **div** tag is the most generic tag used to hold any content
 - Used to divide the website into different sections
@@ -82,7 +82,7 @@
 
 
 
-### \<h1>, \<h2>, \<h3>, ... (Headers)
+### <a name="HS1-headers">\<h1>, \<h2>, \<h3>, ... (Headers)</a>
 
 - A **header** tag can be from 1-6, with 1 being the most important/largest, to 6 being the least important/smallest.
 - Use header tags to express section headers and other important information.
@@ -93,7 +93,7 @@
 
 
 
-### \<p>
+### <a name="HS1-p">\<p></a>
 
 - A **p** tag is a paragraph tag used to hold text, even if it’s just a small line.
 
@@ -107,7 +107,7 @@
 
 
 
-### \<img>
+### <a name="HS1-img">\<img></a>
 
 - An **img** tag is an image tag, and it is used to insert images.
 - img tags generally have a src attribute, whose value is a URL to an image.
@@ -122,7 +122,7 @@
 
 
 
-### \<input>
+### <a name="HS1-input">\<input></a>
 
 - The \<input> tag is used to gather input from users.
 - It has an attribute (type) with a value of “text”, “number”, or “submit” based on what you want the user to input.
@@ -139,7 +139,7 @@
 
 
 
-### \<a> (Links/Anchor Tags)
+### <a name="HS1-a">\<a> (Links/Anchor Tags)</a>
 
 - An **anchor** is a piece of text which marks the beginning and/or the end of a hypertext link. 
 - The text between the opening **tag** and the closing **tag** is either the start or destination (or both) of a link.
@@ -154,7 +154,7 @@
 
 
 
-### \<ol>, \<ul>, \<li> (Lists)
+### <a name="HS1-lists">\<ol>, \<ul>, \<li> (Lists)</a>
 
 - An **u**nordered **l**ist (ul) has no numbers, just bullets. It is contained within \<ul> and \</ul> tags.
 
@@ -187,7 +187,7 @@
 
 
 
-### \<b>, \<i>, \<u>
+### <a name="HS1-biu">\<b>, \<i>, \<u></a>
 
 - Use \<b> to **bold** text
 - Use \<i> to *italicize* text
@@ -205,7 +205,7 @@
 
 
 
-### \<span>
+### <a name="HS1-span">\<span></a>
 
 - The \<span> tag is used to group inline-elements in a document.
 - The \<span> tag provides no visual change by itself.
