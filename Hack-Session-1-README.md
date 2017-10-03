@@ -1,4 +1,4 @@
-# Hackschool Hack Session 1 - README
+# Hack-Session-1-README
 
 ## HTML Setup
 
