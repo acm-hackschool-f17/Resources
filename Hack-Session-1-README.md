@@ -1,6 +1,47 @@
 # Hack-Session-1-README
 
-## HTML Setup
+## Table of Contents
+
+- <a href="#html-setup">HTML Setup</a>
+- Useful HTML Tags
+  - div
+  - h1, h2, h3, ...
+  - p
+  - img
+  - input
+  - a (Links/Anchor Tags)
+  - ol, ul, li (Lists)
+  - b, i, u
+  - span
+- CSS General Syntax
+- Useful CSS Properties
+  - Background and Border Properties
+    - color
+    - opacity
+    - background-color
+    - background-image
+    - background-size
+    - border
+    - border-bottom, border-top, border-left, border-right
+  - Basic Box Properties
+    - float
+    - width, height
+    - margin
+    - margin-bottom, margin-top, margin-left, margin-right
+    - padding
+    - padding-bottom, padding-top, padding-left, padding-right
+  - Text Properties
+    - text-decoration
+    - text-align
+  - Font Properties
+    - font
+    - font-family
+    - font-size
+    - font-weight
+  - Miscellaneous
+    - cursor
+
+## <a name="html-setup">HTML Setup</a>
 
 ```
 <!DOCTYPE html>
@@ -12,7 +53,6 @@
 	// Stuff will go here!
 </body>
 </html>
-
 ```
 
 - <!DOCTYPE html> lets the browser know it’s an HTML doc
@@ -656,4 +696,5 @@ span.wait {
 
 
 
-t
+## Classes and IDs
+
