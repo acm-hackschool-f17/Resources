@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - <a href="#HS1-html-setup">HTML Setup</a>
-- <a href="#HS1-useful-html-tags">Useful HTML Tags</a>
+- Useful HTML Tags
   - <a href="#HS1-div">div</a>
   - <a href="#HS1-headers">h1, h2, h3, ...</a>
   - <a href="#HS1-p">p</a>
@@ -13,33 +13,35 @@
   - <a href="#HS1-lists">ol, ul, li (Lists)</a>
   - <a href="#HS1-biu">b, i, u</a>
   - <a href="#HS1-span">span</a>
-- CSS General Syntax
+- Useful CSS Syntax
+  - <a href="#HS1-including-your-css">Including your CSS</a>
+  - <a href="#HS1-css-general-syntax">CSS General Syntax</a>
 - Useful CSS Properties
-  - Background and Border Properties
-    - color
-    - opacity
-    - background-color
-    - background-image
-    - background-size
-    - border
-    - border-bottom, border-top, border-left, border-right
-  - Basic Box Properties
-    - float
-    - width, height
-    - margin
-    - margin-bottom, margin-top, margin-left, margin-right
-    - padding
-    - padding-bottom, padding-top, padding-left, padding-right
-  - Text Properties
-    - text-decoration
-    - text-align
-  - Font Properties
-    - font
-    - font-family
-    - font-size
-    - font-weight
-  - Miscellaneous
-    - cursor
+  - <a href="#HS1-background-and-border-properties">Background and Border Properties</a>
+    - <a href="#HS1-color">color</a>
+    - <a href="#HS1-opacity">opacity</a>
+    - <a href="#HS1-background-color">background-color</a>
+    - <a href="#HS1-background-image">background-image</a>
+    - <a href="#HS1-background-size">background-size</a>
+    - <a href="#HS1-border">border</a>
+    - <a href="#HS1-border-sides">border-bottom, border-top, border-left, border-right</a>
+  - <a href="#HS1-basic-box-properties">Basic Box Properties</a>
+    - <a href="#HS1-float">float</a>
+    - <a href="#HS1-width-height">width, height</a>
+    - <a href="#HS1-margin">margin</a>
+    - <a href="#HS1-margin-sides">margin-bottom, margin-top, margin-left, margin-right</a>
+    - <a href="#HS1-padding">padding</a>
+    - <a href="#HS1-padding-sides">padding-bottom, padding-top, padding-left, padding-right</a>
+  - <a href="#HS1-text-properties">Text Properties</a>
+    - <a href="#HS1-text-decoration">text-decoration</a>
+    - <a href="#HS1-text-algin">text-align</a>
+  - <a href="#HS1-font-properties">Font Properties</a>
+    - <a href="#HS1-font">font</a>
+    - <a href="#HS1-font-family">font-family</a>
+    - <a href="#HS1-font-size">font-size</a>
+    - <a href="#HS1-font-weight">font-weight</a>
+  - <a href="#HS1-miscellaneous">Miscellaneous</a>
+    - <a href="#HS1-cursor">cursor</a>
 
 ---
 
@@ -65,7 +67,7 @@
 
 
 
-## <a name="HS1-useful-html-tags">Useful HTML Tags</a>
+## Useful HTML Tags
 
 ### <a name="HS1-div">\<div></a>
 
@@ -223,7 +225,7 @@
 
 ---
 
-## CSS
+## <a name="HS1-CSS">CSS</a>
 
 - CSS stands for Cascading Style Sheets, and it can be used to add color, change element sizes, and format your page.
 - Main idea: select a particular element or a group of elements to apply styling to
@@ -233,7 +235,7 @@
 
 ## Useful CSS Syntax
 
-### Including your CSS
+### <a name="HS1-including-your-css">Including your CSS</a>
 
 In your HTML file after your \<title> tag in your \<head>, add the following line:
 
@@ -245,7 +247,7 @@ In your HTML file after your \<title> tag in your \<head>, add the following lin
 
 
 
-### CSS General Syntax
+### <a name="HS1-css-general-syntax">CSS General Syntax</a>
 
 - property: value
 
@@ -262,9 +264,9 @@ p {
 
 ## Useful CSS Properties and Values
 
-### <u>Background and Border Properties</u>
+### <a name="HS1-background-and-border-properties">Background and Border Properties</a>
 
-### color
+### <a name="HS1-color">color</a>
 
 - Sets the color of text
 
@@ -306,7 +308,7 @@ p {
 
 
 
-### opacity
+### <a name="HS1-opacity">opacity</a>
 
 - Sets the opacity (transparency) level for an element
 - Decimal number ranging between 0.0 and 1.0
@@ -319,7 +321,7 @@ opacity: 0.5;
 
 
 
-### background-color
+### <a name="HS1-background-color">background-color</a>
 
 - Sets the background color of a single element
 - Legal colors can be found above under the **color** section
@@ -342,7 +344,7 @@ p {
 
 
 
-### background-image
+### <a name="HS1-background-image">background-image</a>
 
 - Sets one or more background images for an element
 - By default, a background-image is placed at the top-left corner of an element, and **repeated** both vertically and horizontally.
@@ -360,7 +362,7 @@ body {
 
 
 
-### background-size
+### <a name="HS1-background-size">background-size</a>
 
 - Specifies the size of the background images
 
@@ -376,7 +378,7 @@ div {
 
 
 
-### border
+### <a name="HS1-border">border</a>
 
 - Sets all the border properties in one declaration
   - Sample Border Styles:
@@ -397,7 +399,7 @@ p {
 
 
 
-### border-bottom, border-top, border-left, border-right
+### <a name="HS1-border-sides">border-bottom, border-top, border-left, border-right</a>
 
 - Sets the border properties of a specific side in one declaration
 
@@ -411,9 +413,9 @@ p {
 
 
 
-### <u>Basic Box Properties</u>
+### <a name="HS1-basic-box-properties">Basic Box Properties</a>
 
-### float
+### <a name="HS1-float">float</a>
 
 - Specifies whether or not a box (an element) should float
 
@@ -429,7 +431,7 @@ img {
 
 
 
-### width, height
+### <a name="HS1-width-height">width, height</a>
 
 - Sets the width and height of an element
 
@@ -446,7 +448,7 @@ p.ex {
 
 
 
-### margin
+### <a name="HS1-margin">margin</a>
 
 - Sets all the margin properties in one declaration. 
 - This property can have from one to four values.
@@ -488,7 +490,7 @@ margin: 10px;
 
 
 
-### margin-bottom, margin-left, margin-right, margin-top
+### <a name="HS1-margin-sides">margin-bottom, margin-left, margin-right, margin-top</a>
 
 - Sets the margin property of a specific side in one declaration
 
@@ -502,7 +504,7 @@ p {
 
 
 
-### padding
+### <a name="HS1-padding">padding</a>
 
 - Sets all the padding properties in one declaration
 
@@ -530,7 +532,7 @@ padding: 10px;
 
 
 
-### padding-bottom, padding-left, padding-right, padding-top
+### <a name="HS1-padding-sides">padding-bottom, padding-left, padding-right, padding-top</a>
 
 - Sets the padding property of a specific side in one declaration
 
@@ -544,9 +546,9 @@ p {
 
 
 
-### <u>Text Properties</u>
+### <a name="HS1-text-properties">Text Properties</a>
 
-### text-align
+### <a name="HS1-text-align">text-align</a>
 
 - Specifies the horizontal alignment of text in an element
 
@@ -568,7 +570,7 @@ h3 {
 
 
 
-### text-decoration
+### <a name="HS1-text-decoration">text-decoration</a>
 
 - Specifies the decoration added to text
 
@@ -590,9 +592,9 @@ h3 {
 
 <img src="https://lh4.googleusercontent.com/phkTfvGNu-ZMmdm55uj_78F8rV-CqDqIrN9Lfbl2heJwQH-FK4yDs8mb5mR-0ckOjo5b1Ls6oCYVek68SoCjSFar-f_MjJAnCpR6OubYByIsM7XnJh1L26wEH05rdrYSDWfUh1jQ" width="200px"/>
 
-### <u>Font Properties</u>
+### <a name="HS1-font-properties">Font Properties</a>
 
-### font
+### <a name="HS1-font">font</a>
 
 - Sets all the font properties in one declaration
 - The properties that can be set, are (in order): "font-style font-variant font-weight font-size/line-height font-family"
@@ -612,7 +614,7 @@ p.ex2 {
 
 
 
-### font-family
+### <a name="HS1-font-family">font-family</a>
 
 - Specifies the font for an element
 - The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
@@ -627,7 +629,7 @@ p {
 
 
 
-### font-size
+### <a name="HS1-font-size">font-size</a>
 
 - Sets the size of a font
 - Sample sizes:
@@ -655,7 +657,7 @@ p {
 
 
 
-### font-weight
+### <a name="HS1-font-weight">font-weight</a>
 
 -  Sets how thick or thin characters in text should be displayed
 
@@ -677,9 +679,9 @@ p.thicker {
 
 
 
-### <u>Miscellaneous</u>
+### <a name="HS1-miscellaneous">Miscellaneous</a>
 
-### cursor
+### <a name="HS1-cursor">cursor</a>
 
 - Specifies the type of cursor to be displayed when pointing on an element
 
