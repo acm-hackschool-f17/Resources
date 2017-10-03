@@ -712,3 +712,47 @@ span.wait {
 
 ## Classes and IDs
 
+### Classes
+
+- The class selector selects elements with a specific class attribute
+- Classes should be used when you want multiple HTML elements to have the same style.
+- To select elements with a specific class, write a period (.) character, followed by the name of the class.
+
+#### Example
+
+```
+.center {
+    text-align: center;
+    color: red;
+}
+
+<h1 class="center">Red and center-aligned heading</h1>
+<p class="center">Red and center-aligned paragraph.</p> 
+```
+
+<img src="https://lh3.googleusercontent.com/OF35-6kLqqyKNATOdq5CvuKykPZS_zupxf6FrGIVPdUAHIom2Z5OW9vUyFD1wesOGkH_ia3dPM3OpYlXsRbhLcS7gxzf7wlpxBA00j2xoBoQLcs-VDvF-wlbH7oQ3qZ5aE_NQg3-" width="500px">
+
+---
+
+### IDs
+
+- The id selector uses the id attribute of an HTML element to select a specific element.
+- The id of an element should be unique within a page, so the id selector is used to select one unique element!
+  - e.g. A title or header of a specific section
+- To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+- **Note:** An id name cannot start with a number!
+
+#### Example
+
+```
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+```
+
+<img src="https://lh6.googleusercontent.com/HE0dLP73JdmWGvkx69PYVLX7IXglp54KFlYcPkvkkjd8nJrzLewcBzCbgRoYivy3Vwh3-iDGU2P_emxtOjSfGUkKTSlQ2doFigoYeW-g8HgSTnlJdsPqcSt_tWPEmgWtzxWsCq9J" width="700px">
+
