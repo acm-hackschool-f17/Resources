@@ -29,6 +29,20 @@ the current Hackschool Director, Shannon Phu, at
 
 <!-- /MarkdownTOC -->
 
+## Basic Curriculum
+
+Each week, we will alternate between "Learn" and "Hack" sessions. During Learn sessions, students will be taught new material and follow along with our instructors in writing some basic code. During Hack sessions, students will apply the knowledge gained from the previous teach session to make a personalized website.
+
+Here is a high level outline of the topics that will be covered each week:
+
+* Week 1: Learn HTML & CSS
+* Week 2: Build a personal website
+* Week 3: Learn Bootstrap and JavaScript
+* Week 4: Build an interactive photo gallery
+* Week 5: Intro to backend web development: Node.js
+* Week 6: Build your first web app
+* Week 7: Advanced backend topic: databases
+* Week 8: Finish your first web app
 
 ## Essential Links 
 
