@@ -90,6 +90,8 @@ Bonus items (if you have time; these are not needed for our first Learn session)
 
 ## After Session 1
 
+* [Slides for Session 1](https://docs.google.com/presentation/d/1PUo4VvwJEt-de1mrBg0eBGrNVsQN6s1KB4rp0UPzjtI/mobilepresent?slide=id.p)
+
 ### Helpful Docs & Tools
 
 * [http://jsbin.com/](http://jsbin.com/) for quick in-browser prototypes
