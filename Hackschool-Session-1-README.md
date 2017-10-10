@@ -740,7 +740,7 @@ span.wait {
 <p class="center">Red and center-aligned paragraph.</p> 
 ```
 
-<img src="https://lh3.googleusercontent.com/OF35-6kLqqyKNATOdq5CvuKykPZS_zupxf6FrGIVPdUAHIom2Z5OW9vUyFD1wesOGkH_ia3dPM3OpYlXsRbhLcS7gxzf7wlpxBA00j2xoBoQLcs-VDvF-wlbH7oQ3qZ5aE_NQg3-">
+<img src="https://lh3.googleusercontent.com/OF35-6kLqqyKNATOdq5CvuKykPZS_zupxf6FrGIVPdUAHIom2Z5OW9vUyFD1wesOGkH_ia3dPM3OpYlXsRbhLcS7gxzf7wlpxBA00j2xoBoQLcs-VDvF-wlbH7oQ3qZ5aE_NQg3-" style="width: 300px"/>
 
 ---
 
