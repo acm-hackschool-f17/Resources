@@ -128,7 +128,7 @@
 #### Example
 
 ```
-<img src=“https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg”/>
+<img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg"/>
 ```
 
 <img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" width="300px"/>
