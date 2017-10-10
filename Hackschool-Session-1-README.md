@@ -42,15 +42,15 @@
     - <a href="#HS1-font-weight">font-weight</a>
   - <a href="#HS1-miscellaneous">Miscellaneous</a>
     - <a href="#HS1-cursor">cursor</a>
+    - <a href="#HS1-flexboxes">Flexboxes</a>
+      - <a href="#HS1-creating-a-flexbox">Creating a Flexbox</a>
+      - Useful Flexbox Properties
+        - <a href="#HS1-flex-direction">flex-direction</a>
+        - <a href="#HS1-justify-content">justify-content</a>
+        - <a href="#HS1-align-items">align-items</a>
 - Classes and IDs
   - <a href="#HS1-classes">Classes</a>
   - <a href="#HS1-ids">IDs</a>
-- <a href="#HS1-flexboxes">Flexboxes</a>
-  - <a href="#HS1-creating-a-flexbox">Creating a Flexbox</a>
-  - Useful Flexbox Properties
-    - <a href="#HS1-flex-direction">flex-direction</a>
-    - <a href="#HS1-justify-content">justify-content</a>
-    - <a href="#HS1-align-items">align-items</a>
 
 ---
 
