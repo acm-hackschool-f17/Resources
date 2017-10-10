@@ -718,6 +718,90 @@ span.wait {
 }
 ```
 
+### <a name="HS1-flexboxes">Flexboxes</a>
+
+<img src="https://lh3.googleusercontent.com/OcbnMeHOpkbyRkKWmjZSAHlG7Uz3DOqmjivdGRNqeE4PYOvb-T7fKV4Cso66WWaGCrQ9_xwRduVsN0bBRnFmVxUtZBKy0y-L1NcHp0KI3W7_unYuL3qbKxmXe8dB4Hx39YEbys-a" style="width: 700px"/>
+
+- The main idea behind the flex layout is to give a container the ability to alter its items' width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). 
+- A flex container expands items to fill available free space, or shrinks them to prevent overflow.
+- **Note**: a comprehensive guide to flexboxes can be found at https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+---
+
+### <a name="HS1-creating-a-flexbox">Creating a Flexbox</a>
+
+In your CSS:
+
+```
+.class-name {
+	display: flex;
+}
+```
+
+---
+
+### Useful Flexbox Properties
+
+#### <a name="HS1-flex-direction">flex-direction</a>
+
+- Defines the direction flex items are placed in the flex container. 
+- Think of flex items as primarily laying out either in horizontal rows or vertical columns.
+- Possible values are:
+  - row (default)
+    - items are left-to-right
+  - row-reverse
+    - items are right-to-left
+  - column
+    - items are top-to-bottom
+  - column-reverse
+    - items are bottom-to-top
+
+#### Example
+
+```
+.container {
+	flex-direction: column
+}
+```
+
+---
+
+#### <a name="HS1-justify-content">justify-content</a>
+
+- Defines the alignment of items along the main axis of the box.
+
+- Possible values are:
+
+  <img src="https://lh4.googleusercontent.com/zk3GIwsV-FFRud1GxW-8rhkz1XivUOlQ3hSG6ZDkpTZB_uXmTqg5kIoolYCJE96-B5GZHez8hn4BnWnactINvaVSPr4daduGplYjYmrfYiNe4v3xUw-wi_GTaOb_-uERH4MD0Yog" width="300px"/>
+
+### Example
+
+```
+.container {
+	justify-content: center;
+}
+```
+
+------
+
+### <a name="HS1-align-items">align-items</a>
+
+- This defines the default behaviour for how flex items are laid out along the "cross axis" on the current line.
+
+  - Assuming your flex-box is left-to-right, <a href="#HS1-justify-content">justify-content</a> will determine the position of items **horizontally** (like an x-coordinate), whereas align-items will determine the position of items **vertically** (like a y-coordinate).
+
+- Possible values are:
+
+  <img src="https://lh5.googleusercontent.com/nW1Vz4huI8iYNaSlTFFENAXHsCI189noSsatqN3xrjZwfqOxNf3JY57zxvTEaZN_dPA9nChcjsDdMMS0FS1_hrzyEReZ5dvQjkweyPq_S-Q60CinuO4byDiIeb6S00lT6Sc76_X6" width="300px"/>
+
+#### Example
+
+```
+.container {
+	align-items: center;
+}
+```
+
 ---
 
 ## Classes and IDs
@@ -765,85 +849,3 @@ span.wait {
 ```
 
 <img src="https://lh6.googleusercontent.com/HE0dLP73JdmWGvkx69PYVLX7IXglp54KFlYcPkvkkjd8nJrzLewcBzCbgRoYivy3Vwh3-iDGU2P_emxtOjSfGUkKTSlQ2doFigoYeW-g8HgSTnlJdsPqcSt_tWPEmgWtzxWsCq9J">
-
----
-
-# <a name="HS1-flexboxes">Flexboxes</a>
-
-<img src="https://lh3.googleusercontent.com/OcbnMeHOpkbyRkKWmjZSAHlG7Uz3DOqmjivdGRNqeE4PYOvb-T7fKV4Cso66WWaGCrQ9_xwRduVsN0bBRnFmVxUtZBKy0y-L1NcHp0KI3W7_unYuL3qbKxmXe8dB4Hx39YEbys-a" style="width: 700px"/>
-
-- The main idea behind the flex layout is to give a container the ability to alter its items' width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). 
-- A flex container expands items to fill available free space, or shrinks them to prevent overflow.
-- **Note**: a comprehensive guide to flexboxes can be found at https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-## <a name="HS1-creating-a-flexbox">Creating a Flexbox</a>
-
-In your CSS:
-
-```
-.class-name {
-	display: flex;
-}
-```
-
-## Useful Flexbox Properties
-
-### <a name="HS1-flex-direction">flex-direction</a>
-
-- Defines the direction flex items are placed in the flex container. 
-- Think of flex items as primarily laying out either in horizontal rows or vertical columns.
-- Possible values are:
-  - row (default)
-    - items are left-to-right
-  - row-reverse
-    - items are right-to-left
-  - column
-    - items are top-to-bottom
-  - column-reverse
-    - items are bottom-to-top
-
-#### Example
-
-```
-.container {
-	flex-direction: column
-}
-```
-
----
-
-### <a name="HS1-justify-content">justify-content</a>
-
-- Defines the alignment of items along the main axis of the box.
-- Possible values are:
-
-  <img src="https://lh4.googleusercontent.com/zk3GIwsV-FFRud1GxW-8rhkz1XivUOlQ3hSG6ZDkpTZB_uXmTqg5kIoolYCJE96-B5GZHez8hn4BnWnactINvaVSPr4daduGplYjYmrfYiNe4v3xUw-wi_GTaOb_-uERH4MD0Yog" width="300px"/>
-
-### Example
-
-```
-.container {
-	justify-content: center;
-}
-```
-
----
-
-### <a name="HS1-align-items">align-items</a>
-
-- This defines the default behaviour for how flex items are laid out along the "cross axis" on the current line.
-
-  - Assuming your flex-box is left-to-right, <a href="#HS1-justify-content">justify-content</a> will determine the position of items **horizontally** (like an x-coordinate), whereas align-items will determine the position of items **vertically** (like a y-coordinate).
-
-- Possible values are:
-
-  <img src="https://lh5.googleusercontent.com/nW1Vz4huI8iYNaSlTFFENAXHsCI189noSsatqN3xrjZwfqOxNf3JY57zxvTEaZN_dPA9nChcjsDdMMS0FS1_hrzyEReZ5dvQjkweyPq_S-Q60CinuO4byDiIeb6S00lT6Sc76_X6" width="300px"/>
-
-#### Example
-
-```
-.container {
-	align-items: center;
-}
-```
-
