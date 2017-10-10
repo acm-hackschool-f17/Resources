@@ -128,7 +128,7 @@
 #### Example
 
 ```
-<img src=“https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg”/>
+<img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg"/>
 ```
 
 <img src="https://i.ytimg.com/vi/ZHgtIyZX_q8/maxresdefault.jpg" width="300px"/>
@@ -160,7 +160,7 @@
 #### Example
 
 ```
-<a href=“www.google.com”>Click Here to go to Google</a>
+<a href="www.google.com">Click Here to go to Google</a>
 ```
 
 <img src="https://lh3.googleusercontent.com/-MR5GH1teD2a48f4vlbeGiuF0GvLzq7uRETIOzu4_-2Ps8FIS6fHK5kKZqrR50Co3WeLQ-_7wLfJQloRgcsOnu-_N26CpiJRrD-_CDHeJbsYnOMCn31DWVk8ZMXxh29j6htAJGkkB64" width="200px"/>
