@@ -817,7 +817,7 @@ In your CSS:
 - Defines the alignment of items along the main axis of the box.
 - Possible values are:
 
-<img src="https://lh4.googleusercontent.com/zk3GIwsV-FFRud1GxW-8rhkz1XivUOlQ3hSG6ZDkpTZB_uXmTqg5kIoolYCJE96-B5GZHez8hn4BnWnactINvaVSPr4daduGplYjYmrfYiNe4v3xUw-wi_GTaOb_-uERH4MD0Yog" style="width: 300px"/>
+<img src="https://lh4.googleusercontent.com/zk3GIwsV-FFRud1GxW-8rhkz1XivUOlQ3hSG6ZDkpTZB_uXmTqg5kIoolYCJE96-B5GZHez8hn4BnWnactINvaVSPr4daduGplYjYmrfYiNe4v3xUw-wi_GTaOb_-uERH4MD0Yog" style="width: 200px"/>
 
 ### Example
 
@@ -837,7 +837,7 @@ In your CSS:
 
 - Possible values are:
 
-  <img src="https://lh5.googleusercontent.com/nW1Vz4huI8iYNaSlTFFENAXHsCI189noSsatqN3xrjZwfqOxNf3JY57zxvTEaZN_dPA9nChcjsDdMMS0FS1_hrzyEReZ5dvQjkweyPq_S-Q60CinuO4byDiIeb6S00lT6Sc76_X6" style="width: 300px"/>
+  <img src="https://lh5.googleusercontent.com/nW1Vz4huI8iYNaSlTFFENAXHsCI189noSsatqN3xrjZwfqOxNf3JY57zxvTEaZN_dPA9nChcjsDdMMS0FS1_hrzyEReZ5dvQjkweyPq_S-Q60CinuO4byDiIeb6S00lT6Sc76_X6" style="width: 200px"/>
 
 #### Example
 
