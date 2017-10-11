@@ -893,9 +893,9 @@ Now we want to remove the bullets and any margins and padding, which we can achi
 
 ```
 ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
 }
 ```
 
