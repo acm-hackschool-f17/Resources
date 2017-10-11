@@ -157,13 +157,31 @@
 - An **anchor** is a piece of text which marks the beginning and/or the end of a hypertext link. 
 - The text between the opening **tag** and the closing **tag** is either the start or destination (or both) of a link.
 
-#### Example
+#### Linking Web URLs
+
+- To link a web address, simply use the href attribute and assign it the URL.
+
+##### Example
 
 ```
 <a href="www.google.com">Click Here to go to Google</a>
 ```
 
 <img src="https://lh3.googleusercontent.com/-MR5GH1teD2a48f4vlbeGiuF0GvLzq7uRETIOzu4_-2Ps8FIS6fHK5kKZqrR50Co3WeLQ-_7wLfJQloRgcsOnu-_N26CpiJRrD-_CDHeJbsYnOMCn31DWVk8ZMXxh29j6htAJGkkB64" width="200px"/>
+
+#### Linking to a Place on your Website
+
+Linking to a Place on your Website
+
+- To link to a certain line on your page you need to use <a href="#HS1-ids">IDs</a>.
+- Surround the line you are interested in linking to in \<a id=""> tags to mark it as an anchor.
+- Use the \<a href=""> tags as above to link to the line.
+
+##### Example
+
+```
+
+```
 
 ---
 
