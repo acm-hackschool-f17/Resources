@@ -169,19 +169,9 @@
 
 <img src="https://lh3.googleusercontent.com/-MR5GH1teD2a48f4vlbeGiuF0GvLzq7uRETIOzu4_-2Ps8FIS6fHK5kKZqrR50Co3WeLQ-_7wLfJQloRgcsOnu-_N26CpiJRrD-_CDHeJbsYnOMCn31DWVk8ZMXxh29j6htAJGkkB64" width="200px"/>
 
-#### Linking to a Place on your Website
-
-Linking to a Place on your Website
+##### Linking to a Place on your Website
 
 - To link to a certain line on your page you need to use <a href="#HS1-ids">IDs</a>.
-- Surround the line you are interested in linking to in \<a id=""> tags to mark it as an anchor.
-- Use the \<a href=""> tags as above to link to the line.
-
-##### Example
-
-```
-
-```
 
 ---
 
@@ -867,3 +857,123 @@ In your CSS:
 ```
 
 <img src="https://lh6.googleusercontent.com/HE0dLP73JdmWGvkx69PYVLX7IXglp54KFlYcPkvkkjd8nJrzLewcBzCbgRoYivy3Vwh3-iDGU2P_emxtOjSfGUkKTSlQ2doFigoYeW-g8HgSTnlJdsPqcSt_tWPEmgWtzxWsCq9J">
+
+## Creating a Navigation Bar
+
+Having easy-to-use navigation is important for any web site.
+
+With CSS you can transform boring HTML menus into good-looking navigation bars.
+
+### Navigation Bar = List of Links
+
+A navigation bar is basically a list of links, so using the \<ul> and \<li> elements makes perfect sense.
+
+**In your HTML file**:
+
+```
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+```
+
+Now we want to remove the bullets and any margins and padding, which we can achieve with CSS.
+
+**In your CSS file**:
+
+```
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+```
+
+- **list-style-type: none** 
+  - Removes the bullets.
+- **margin: 0; padding: 0;** 
+  - Removes any browser default margins.
+
+You should now have a simple navigation bar, looking something like the following:
+
+<img src="https://lh4.googleusercontent.com/Lv5a3zGiSPOCPqds8himJLI2r_vumrYPufIhOV9-SHLJ186xvFdycfjCYUtX648CdzSNSk9nwRDc25JplL-cH_cCJb_3usGgD64lRGaCeoUjmKAnE_iL5v9cKKOQBCoVqjdKpJy-" width="100px"/>
+
+---
+
+### Creating Clickable Blocks
+
+Currently, the links only work when we click the text. However, what if we want our navigation bar to be made up of stylable and clickable boxes? CSS comes to our rescue once again!
+
+**In your CSS file:**
+
+```
+li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+```
+
+This code styles the \<a> elements inside of the list.
+
+- **display: block;**
+  - Displays the links as block elements which makes the whole link area clickable (not just the text) and allows us to specify any other properties that we want (width, height, padding, margin, etc.).
+- **width: 60px;**
+  - Sets the width of the block to 60 pixels. Without this, the block would take up the entire width of the webpage (by default).
+- **background-color: #dddddd;**
+  - Sets the background color of the block to a dark gray (so we can see the blocks).
+
+You should now have something that looks like the following, where all gray areas are clickable:
+
+<img src="https://lh3.googleusercontent.com/8nCpY9Qz2cg6OWPHbXIOeHmBXc4iky4CsNfWD_nCA9y0gMD5jEFHOg5whfLX_L_m9YxSzWR_G_dljHzWIVLeFtmkNIy0ma8CGcfWmV2gW82KJ_x1XrVhyUAV8r2bYoKwn7lUW7dx" width="100px"/>
+
+---
+
+### Changing Color on Hover
+
+Let's change the background color of a link block as the user hovers over it. We can also achieve this with CSS.
+
+First, we should remove the default styling that hyperlinks receive, and add some padding so the text positioning looks nicer.
+
+**In your CSS file:**
+
+```
+li a {
+	/* stuff from before here */
+	color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+```
+
+- **color: black;**
+  - Sets text color to black, as opposed to blue.
+- **padding: 8px 16px;**
+  - Adds padding to the text.
+- **text-decoration: none**
+  - Removes all text-decoration (i.e. removes the underline).
+
+Now, let's edit the styling of a link being hovered over:
+
+**In your CSS file:**
+
+```
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+```
+
+a:hover is special syntax that specifically styles links that have the cursor on them.
+
+- **background-color: #555;**
+  - Sets the background color to a dark gray (when user is hovering over link)
+- **color: white;**
+  - Changes text color to white (when user is hovering over link)
+
+You should now have something that looks like the following (if your cursor was on "Home"):
+
+<img src="https://lh3.googleusercontent.com/UItn2CGVR8kLOrKobSNk9hz9_4Fv94KGYTX43IhBUqfc5zTFd4IQv9GLabioG3ua_qdXrTV08FDlFodv9y2zdd_i2JIVL2MPbmlMI4IBgbz6gIak7aHv4fHgCzVftdblBDc25-R1" width="200px"/>
+
