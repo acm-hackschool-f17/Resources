@@ -870,6 +870,8 @@ Having easy-to-use navigation is important for any web site.
 
 With CSS you can transform boring HTML menus into good-looking navigation bars.
 
+---
+
 ### <a name="HS1-navigation-bar-equals">Navigation Bar = List of Links</a>
 
 A navigation bar is basically a list of links, so using the \<ul> and \<li> elements makes perfect sense.
