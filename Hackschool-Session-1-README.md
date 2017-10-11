@@ -51,6 +51,12 @@
 - Classes and IDs
   - <a href="#HS1-classes">Classes</a>
   - <a href="#HS1-ids">IDs</a>
+- <a href="#HS1-creating-a-navigation-bar">Creating a Navigation Bar</a>
+  - <a href="#HS1-navigation-bar-equals">Navigation Bar = List of Links</a>
+  - <a href="#HS1-creating-clickable-blocks">Creating Clickable Blocks</a>
+  - <a href="#HS1-changing-color-on-hover">Changing Color on Hover</a>
+  - <a href="#HS1-making-the-bar-horizontal">Making the Bar Horizontal</a>
+  - <a href="#HS1-fixed-navigation-bars">Fixed Navigation Bars</a>
 
 ---
 
@@ -858,13 +864,13 @@ In your CSS:
 
 <img src="https://lh6.googleusercontent.com/HE0dLP73JdmWGvkx69PYVLX7IXglp54KFlYcPkvkkjd8nJrzLewcBzCbgRoYivy3Vwh3-iDGU2P_emxtOjSfGUkKTSlQ2doFigoYeW-g8HgSTnlJdsPqcSt_tWPEmgWtzxWsCq9J">
 
-## Creating a Navigation Bar
+## <a name="HS1-creating-a-navigation-bar">Creating a Navigation Bar</a>
 
 Having easy-to-use navigation is important for any web site.
 
 With CSS you can transform boring HTML menus into good-looking navigation bars.
 
-### Navigation Bar = List of Links
+### <a name="HS1-navigation-bar-equals">Navigation Bar = List of Links</a>
 
 A navigation bar is basically a list of links, so using the \<ul> and \<li> elements makes perfect sense.
 
@@ -902,7 +908,7 @@ You should now have a simple navigation bar, looking something like the followin
 
 ---
 
-### Creating Clickable Blocks
+### <a name="HS1-creating-clickable-blocks">Creating Clickable Blocks</a>
 
 Currently, the links only work when we click the text. However, what if we want our navigation bar to be made up of stylable and clickable boxes? CSS comes to our rescue once again!
 
@@ -931,7 +937,7 @@ You should now have something that looks like the following, where all gray area
 
 ---
 
-### Changing Color on Hover
+### <a name="HS1-changing-color-on-hover">Changing Color on Hover</a>
 
 Let's change the background color of a link block as the user hovers over it. We can also achieve this with CSS.
 
@@ -976,4 +982,97 @@ a:hover is special syntax that specifically styles links that have the cursor on
 You should now have something that looks like the following (if your cursor was on "Home"):
 
 <img src="https://lh3.googleusercontent.com/UItn2CGVR8kLOrKobSNk9hz9_4Fv94KGYTX43IhBUqfc5zTFd4IQv9GLabioG3ua_qdXrTV08FDlFodv9y2zdd_i2JIVL2MPbmlMI4IBgbz6gIak7aHv4fHgCzVftdblBDc25-R1" width="200px"/>
+
+---
+
+### <a name="HS1-making-the-bar-horizontal">Making the Bar Horizontal</a>
+
+Making your bar horizontal can be done using a single line in CSS, and involves the float property.
+
+**In your CSS file:**
+
+```
+li {
+    float: left;
+}
+```
+
+However, let's restyle some things as well:
+
+**In your CSS file:**
+
+```
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+```
+
+- **overflow: hidden;**
+  - Added to the \<ul> element to prevent \<li> elements from going outside of the list
+- **background-color: #333**
+  - Note that this property is added to the \<ul> element. This creates a full-width, charcoal background color.
+- **text-align: center**
+  - Added to the \<a> elements in \<li> blocks to center link text within the block.
+
+You should now have something that looks like the following:
+
+<img src="https://lh6.googleusercontent.com/hsHpFjrD3PTszOTXwHogeBJ8d0xuD0bhIHsqm4xTvIUUNHkjxqX9zN-_pjaFDgPqyzQHynEcwazwWI0DmX5ZjNjdk7e476hugxlQkoUSVH4U3RbBL_cLWmGkoaSCe615gpPkO9vz" width="600px"/>
+
+---
+
+### <a name="HS1-fixed-navigation-bars">Fixed Navigation Bars</a>
+
+What if we want to fix our navigation bar at the top or bottom of the page, even when the user is scrolling? You guessed it: a little more CSS.
+
+**In your CSS file:**
+
+```
+ul {
+	/* stuff from before */
+  	position: fixed;
+    top: 0;
+    width: 100%;
+}
+```
+
+- **position: fixed;**
+  - Makes the list fixed from the users point of view/
+- **top: 0**
+  - top is a property for absolutely positioned (fixed) elements; in this case it positions our bar at the top of the page.
+- **width: 100%**
+  - Allows the bar to take up all available width.
+
+This will fix the bar at the top of the screen, even when we scroll! To fix it at the bottom:
+
+```
+ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+```
+
+---
+
+Congratulations! You should now have a pretty kick-ass navigation bar. Continue exploring other CSS properties to make it even cooler. :)
 
