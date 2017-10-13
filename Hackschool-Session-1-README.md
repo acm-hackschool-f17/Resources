@@ -265,7 +265,7 @@ In your HTML file after your \<title> tag in your \<head>, add the following lin
 ```
 <head>
 	<title>Landing page</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 ```
 
