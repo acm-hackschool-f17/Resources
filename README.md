@@ -20,24 +20,27 @@ the current Hackschool Director, Shannon Phu, at
 [skphu@ucla.edu](mailto:skphu@ucla.edu).
 
 <!-- MarkdownTOC autolink=true bracket="round" lowercase_only_ascii="false" -->
-
+- [Course Curriculum](#basic-curriculum)
 - [Essential Links](#essential-links)
-- [What You'll Need for Session 1 - Learn](#what-youll-need-for-session-1---learn)
-- [After Session 1](#after-session-1)
-    - [Helpful Docs & Tools](#helpful-docs--tools)
-    - [Learning Beyond Hackschool](#learning-beyond-hackschool)
+- [What You'll Need for the Entire Course](#what-youll-need-for-the-entire-course)
+- [Helpful Docs & Tools](#helpful-docs--tools)
+- [Learning Beyond Hackschool](#learning-beyond-hackschool)
 
 <!-- /MarkdownTOC -->
 
 ## Basic Curriculum
 
-Each week, we will alternate between "Learn" and "Hack" sessions. During Learn sessions, students will be taught new material and follow along with our instructors in writing some basic code. During Hack sessions, students will apply the knowledge gained from the previous teach session to make a personalized website.
-
-Here is a high level outline of the topics that will be covered each week:
+Each week, we will alternate between "Learn" and "Hack" sessions. During Learn sessions, students will be taught new material and follow along with our instructors in writing some basic code. During Hack sessions, students will apply the knowledge gained from the previous teach session to build a project that we will guide you in making.
 
 * Week 1: Learn HTML & CSS
+    * [Slides](http://tinyurl.com/hackschool17-session1-slides)
 * Week 2: Build a personal website
+    * [Spec](http://tinyurl.com/hackschool17-spec-1)
+    * [HTML/CSS Review](http://tinyurl.com/hackschool-html-css-review)
+    * [How to get started step by step](http://tinyurl.com/hackschool-html-css-start-steps)
 * Week 3: Learn Bootstrap and JavaScript
+    * [Slides](http://tinyurl.com/hackschool17-session2-slides)
+    * [Code](http://tinyurl.com/hackschool17-session2-code)
 * Week 4: Build an interactive photo gallery
 * Week 5: Intro to backend web development: Node.js
 * Week 6: Build your first web app
@@ -55,7 +58,7 @@ Here is a high level outline of the topics that will be covered each week:
 * [ACM Hack website](http://hackucla.com/)
 
 
-## What You'll Need for Session 1 - Learn
+## What You'll Need for the Entire Course
 
 * A positive attitude. We'll encounter plenty of frustration along the way, 
   but that makes the later joy all the better.
@@ -70,7 +73,7 @@ Here is a high level outline of the topics that will be covered each week:
 * Google Chrome: it has the best developer tools and the most market share of
   any web browser
 
-Bonus items (if you have time; these are not needed for our first Learn session): 
+Bonus items (if you have time; these are not needed for frontend web development): 
 
 * Create a GitHub account
 
@@ -86,11 +89,6 @@ Bonus items (if you have time; these are not needed for our first Learn session)
 * (Advanced) If you're on a Mac, you'll eventually want
   [Homebrew](https://brew.sh/) to manage installing command-line tools and
   [n](https://github.com/tj/n) to manage different versions of Node.js.
-
-
-## After Session 1
-
-* [Slides for Session 1](https://docs.google.com/presentation/d/1PUo4VvwJEt-de1mrBg0eBGrNVsQN6s1KB4rp0UPzjtI/mobilepresent?slide=id.p)
 
 ### Helpful Docs & Tools
 
