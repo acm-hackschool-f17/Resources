@@ -9,6 +9,13 @@
 - <a href="#LS2-bootstrap-grid-system">Bootstrap Grid System</a>
   - <a href="#LS2-grid-classes">Grid Classes</a>
   - <a href="#LS2-useful-class-names">Useful Class Names</a>
+    - <a href="#LS2-container">container</a>
+    - <a href="#LS2-row">row</a>
+    - <a href="#LS2-col">col-\*-\*</a>
+  - <a href="LS2-grid-system-rules">Grid System Rules</a>
+- Bootstrap Examples (for you to try)
+  - <a href="#LS2-three-equal-columns">Three Equal Columns</a>
+  - <a href="#mobile-and-desktop">Mobile and Desktop</a>
 
 ## <a id="LS2-what-is-bootstrap">What is Bootstrap?</a>
 
@@ -84,31 +91,113 @@ Again, Bootstrap is a **framework**, which is a collection of pre-written code. 
 
 Some important class names are:
 
-- **container**
+#### <a id="LS2-container">container</a>
 
-  - Fixed width container with widths determined by screen sites. Equal margin on the left and right.
+- Fixed width container with widths determined by screen sites. Equal margin on the left and right.
 
-  - ```
-    .container {
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-    }
+- ```
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  ```
+
+#### <a id="LS2-row">row</a>
+
+- Container for responsive columns.
+
+- ```
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  ```
+
+#### <a id="LS2-col">.col-\*-\*</a>
+
+- Responsive grid (span 1-12 column)
+- The **first asterisk** is to be replaced by a <a href="#LS2-grid-classes">grid class</a>, i.e. xs, sm, md, or lg.
+- The **second asterisk** is to be replaced by a number between 1-12, interpreted as the amount of columns the element takes up.
+
+---
+
+### <a id="LS2-grid-system-rules">Grid System Rules</a>
+
+- Content should be placed within **columns**.
+
+- Only **columns** may be immediate children of **rows**.
+
+  - The definition of **children** is best described with an example:
+
+    ```
+    <div>
+    	<p>Hello, World!</p>
+    	<a href="www.google.com">Click Here for Google!</a>
+    </div>
     ```
 
-- **row**
+    There are three elements in this example: a `<div>` element, a `<p>` element, and an `<a>` element. 
 
-  - Container for responsive columns.
+    The `<p>` and `<a>` elements are **children** of the `<div>` element, and the `<div>` element is called the **parent** of the `<p>` and `<a>` elements.
 
-  - ```
-    .row {
-      margin-right: -15px;
-      margin-left: -15px;
-    }
-    ```
+    Child elements can be thought of as "inside of" their parent elements.
 
-- **.col-\*-\***
+- Use **rows** to create horizontal groups of **columns**
 
-  - Responsive grid (span 1-12 column)
-  - The first asterisk is to be replaced by a 
+- **Rows** must be placed within a **container** (fixed-width) or **container-fluid** (full-width) class for proper alignment and padding.
+
+
+- Grid columns are created by specifying the number of 12 available columns you wish to span. 
+  - For example, three equal columns would use three `.col-sm-4` (as 4+4+4 = 12).
+
+## Bootstrap Examples (for you to try)
+
+Try out the following Bootstrap configurations in your HTML file!
+
+### <a id="LS2-three-equal-columns">Three Equal Columns</a>
+
+```
+<div class="container">
+	<div class="row">
+ 		<div class="col-sm-4" style="text-align: center; border: 2px solid black">I take up 1/3 of the page!</div>
+  		<div class="col-sm-4" style="text-align: center; border: 2px solid black">So do I!</div>
+  		<div class="col-sm-4" style="text-align: center; border: 2px solid black">I do too!</div>
+	</div>
+</div>
+```
+
+<img src="https://lh3.googleusercontent.com/hhC8ZsHLUN-vTRkU6lT885O1QcXrPWU2s6q0-N7so-OaFkZx_2RGQ8S_zgQCjueuj9pGB12vXRAD09RAiQglelHjU1MhrDMt5bWGk73aeNGasocdY5ngxmXoDA3YQBNoVj4dGoeG" width="800px">
+
+---
+
+### <a id="LS2-mobile-and-desktop">Mobile and Desktop</a>
+
+This example will look different depending on whether it is accessed on a computer or a cellphone.
+
+```
+<div class="container">
+  <h1>Hello World!</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <div class="row">
+    <div class="col-xs-9 col-md-7" style="background-color:red;">.col-xs-9 .col-md-7</div>
+    <div class="col-xs-3 col-md-5" style="background-color:lavender;">.col-xs-3 .col-md-5</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-md-10" style="background-color:lavenderblush;">.col-xs-6 .col-md-10</div>
+    <div class="col-xs-6 col-md-2" style="background-color:lightgrey;">.col-xs-6 .col-md-2</div>
+  </div>
+  <div class="row" style="background-color:lightcyan;">
+    <div class="col-xs-6">.col-xs-6</div>
+    <div class="col-xs-6">.col-xs-6</div>
+  </div>
+</div>
+```
+
+<img src="https://lh5.googleusercontent.com/6HxkjmpsTH460KYle3rSdgb2HRzsCAH4A4Iqo9yM-hxepegiC9jMYmA1CF_zzT_b8vc8WeABNOjDT1ThG9m0c5jGJSCRfieW6nrssXf0SiVjY2TPElZq2g9U6o6fEFPKo7866ya5" width="800px"/>
+
+---
+
+## Introduction to JavaScript
+
