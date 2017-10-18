@@ -201,3 +201,82 @@ This example will look different depending on whether it is accessed on a comput
 
 ## Introduction to JavaScript
 
+JavaScript is often referred to as the "programming language of the Internet".
+
+JavaScript is one of the **3 languages** all web developers **must** learn:
+
+1. **HTML** to define the content of web pages.
+2. **CSS** to specify the layout of web pages.
+3. **JavaScript** to program the behavior of web pages.
+
+### Using the Console
+
+The **Console** object provides access to the browser's debugging console. The specifics of how it works vary from browser to browser, but there is a *de facto* set of features that are typically provided.
+
+We will use it as a main tool to teach you JavaScript, so that you can see what each individual line of code does.
+
+To open the Console in **Google Chrome**:
+
+1. Right click on any page.
+2. Select "Inspect" on the drop-down menu that appears.
+3. If the Inspector (the bar that appears) is not at the bottom of your screen, click on the three vertical dots in the top-right corner of the Inspector. Select the third option (left-to-right) for the **Dock Side** preference.
+4. Now that the Inspector is on the bottom of your screen, select the **Console** tab at the top of the Inspector.
+5. We're ready to code!
+
+**Note: In the following examples, the string [Enter] will represent you pressing the Enter key!**
+
+---
+
+### Variables
+
+Variables are containers for storing data values.
+
+**In the Console, type:**
+
+```
+var x = 5; [Enter]
+var y = 10; [Enter]
+x + y; [Enter]
+```
+
+You should see the number 15 printed (ignore the messages that say "undefined")! In this example, both x and y are variables.
+
+In certain languages, like C++, you have to be specify the **type** of a variable when you declare it. JavaScript, however, uses **type inference** to determine what type a variable is.
+
+#### Example
+
+```
+var a = 5;		// a is an integer!
+var b = "cat";	// b is a string!
+var c = false;	// c is a boolean!
+```
+
+---
+
+### Functions
+
+A JavaScript function is a block of code designed to perform a particular task. This function is executed when "something" invokes it (calls it).
+
+**In the Console, type:**
+
+```
+function squareNum(n) { 
+	return n * n;
+} [Enter]
+```
+
+**Note: to add a newline without executing the code, type Shift+Enter**
+
+Now type:
+
+```
+squareNum(9);
+```
+
+You should see the number 81 printed!
+
+Let's break down the syntax:
+
+- **function** is a keyword that means you are about to declare a function.
+- **squareNum** is the name of the function. This name can be whatever you want (within certain naming conventions).
+- Curly braces {} surround the **body** (code/content) of the function.
