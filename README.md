@@ -34,10 +34,11 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
 
 * Week 1: Learn HTML & CSS
     * [Slides](http://tinyurl.com/hackschool17-session1-slides)
+    * [Code](https://github.com/acm-hackschool-f17/session-1-learn)
+    * [Step by Step Introductory Review](http://tinyurl.com/hackschool17-html-css-steps)
+    * [HTML/CSS Comprehensive Review](http://tinyurl.com/hackschool17-html-css-review)
 * Week 2: Build a personal website
     * [Spec](http://tinyurl.com/hackschool17-spec-1)
-    * [HTML/CSS Review](http://tinyurl.com/hackschool17-html-css-review)
-    * [How to get started step by step](http://tinyurl.com/hackschool17-html-css-steps)
 * Week 3: Learn Bootstrap and JavaScript
     * [Slides](http://tinyurl.com/hackschool17-session2-slides)
     * [Code](http://tinyurl.com/hackschool17-session2-code)
