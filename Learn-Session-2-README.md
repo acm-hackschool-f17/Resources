@@ -248,7 +248,7 @@ x + y; [Enter]
 
 You should see the number 15 printed (ignore the messages that say "undefined")! In this example, both x and y are variables.
 
-In certain languages, like C++, you have to be specify the **type** of a variable when you declare it. JavaScript, however, uses **type inference** to determine what type a variable is. Simply type the **var** keyword followed by your variable name to declare a variable.
+In certain languages (like C++) you have to specify the **type** of a variable when you declare it. JavaScript, however, uses **type inference** to determine what type a variable is. Simply type the **var** keyword followed by your variable name to declare a variable.
 
 **Note: To declare a constant variable, you use the let keyword. A constant variable can only be assigned a value once.**
 
