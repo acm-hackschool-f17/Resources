@@ -125,3 +125,6 @@ For JavaScript:
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) to learn the language more deeply
 
 * [freeCodeCamp](https://www.freecodecamp.org/map) for a massive, highly comprehensive curriculum covering everything you would need to know to start a new career as a software engineer
+
+### Points of Contact for Technical Questions
+[Mentor Contact Info Spreadsheet](https://docs.google.com/spreadsheets/d/1rWsnS8zYMXVQKqnVOAUyYM2391IOBNL-RTgOnIQJ6Pw/edit?usp=sharing)
