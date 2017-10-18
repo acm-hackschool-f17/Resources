@@ -16,6 +16,13 @@
 - Bootstrap Examples (for you to try)
   - <a href="#LS2-three-equal-columns">Three Equal Columns</a>
   - <a href="#mobile-and-desktop">Mobile and Desktop</a>
+- <a href="#LS2-introduction-to-javascript">Introduction to Javascript</a>
+  - <a href="#LS2-using-the-console">Using the Console</a>
+  - <a href="#LS2-variables">Variables</a>
+  - <a href="#LS2-functions">Functions</a>
+  - <a href="#LS2-jquery">jQuery</a>
+    - <a href="#LS2-what-is-jquery">What is jQuery?</a>
+    - <a href="#LS2-using-jquery">Using jQuery</a>
 
 ## <a id="LS2-what-is-bootstrap">What is Bootstrap?</a>
 
@@ -199,7 +206,7 @@ This example will look different depending on whether it is accessed on a comput
 
 ---
 
-## Introduction to JavaScript
+## <a id="LS2-introduction-to-javascript">Introduction to JavaScript</a>
 
 JavaScript is often referred to as the "programming language of the Internet".
 
@@ -209,7 +216,7 @@ JavaScript is one of the **3 languages** all web developers **must** learn:
 2. **CSS** to specify the layout of web pages.
 3. **JavaScript** to program the behavior of web pages.
 
-### Using the Console
+### <a id="LS2-using-the-console">Using the Console</a>
 
 The **Console** object provides access to the browser's debugging console. The specifics of how it works vary from browser to browser, but there is a *de facto* set of features that are typically provided.
 
@@ -227,7 +234,7 @@ To open the Console in **Google Chrome**:
 
 ---
 
-### Variables
+### <a id="LS2-variables">Variables</a>
 
 Variables are containers for storing data values.
 
@@ -241,19 +248,21 @@ x + y; [Enter]
 
 You should see the number 15 printed (ignore the messages that say "undefined")! In this example, both x and y are variables.
 
-In certain languages, like C++, you have to be specify the **type** of a variable when you declare it. JavaScript, however, uses **type inference** to determine what type a variable is.
+In certain languages, like C++, you have to be specify the **type** of a variable when you declare it. JavaScript, however, uses **type inference** to determine what type a variable is. Simply type the **var** keyword followed by your variable name to declare a variable.
+
+**Note: To declare a constant variable, you use the let keyword. A constant variable can only be assigned a value once.**
 
 #### Example
 
 ```
 var a = 5;		// a is an integer!
-var b = "cat";	// b is a string!
+let b = "cat";	// b is a constant string!
 var c = false;	// c is a boolean!
 ```
 
 ---
 
-### Functions
+### <a id="LS2-fucntions">Functions</a>
 
 A JavaScript function is a block of code designed to perform a particular task. This function is executed when "something" invokes it (calls it).
 
@@ -277,6 +286,104 @@ You should see the number 81 printed!
 
 Let's break down the syntax:
 
+**To declare a function:**
+
 - **function** is a keyword that means you are about to declare a function.
 - **squareNum** is the name of the function. This name can be whatever you want (within certain naming conventions).
+- Parentheses () immediately follow the function name. The parentheses contain the **parameter(s)** of the function.
 - Curly braces {} surround the **body** (code/content) of the function.
+- When JavaScript reaches a **return statement**, the function will stop executing. If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement. Functions often compute a **return value**. The return value is "returned" back to the "caller".
+
+**To call/invoke a function:**
+
+- Write the name of the function followed by parentheses.
+- Inside the parentheses, specify an explicit **value** for each of the function parameters.
+
+---
+
+### <a id="LS2-jquery">jQuery</a>
+
+Now that we have the basic building blocks for JavaScript code, let's apply it to a real website!
+
+1. Go to https://github.com/acm-hackschool-f17/session-2-learn
+2. Click the "Clone or download" green button near the right side of the screen
+3. Click "Download ZIP"
+4. Open the downloaded file in Finder/Windows Explorer (should be a folder called "session-learn-2-master")
+5. Navigate to the "final" folder
+6. Open the **index.html** file in Google Chrome (drag the file into Google Chrome)
+7. All set!
+
+#### <a id="LS2-what-is-jquery">What is jQuery?</a>
+
+**jQuery** is a lightweight, "write less, do more", JavaScript library (a collection of pre-written functions). The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+#### <a id="LS2-using-jquery">Using jQuery</a>
+
+Let's try one of these simple functions: **hide()**. Just as its name suggests, hide() will hide the specified element.
+
+**In the index.html you just opened, <a href="#LS2-using-the-console">open the Console</a>:**
+
+Type:
+
+```
+$(".image"); [Enter]
+```
+
+You should see an **array** of several HTML elements printed out. An array is a collection of similar values (e.g. array of numbers, array of strings).
+
+These are the exact same elements displaying all of the smol kittens on the web page! We have used jQuery to **select** the element. 
+
+Let's break down the syntax:
+
+- jQuery syntax is tailor-made for **selecting** HTML elements and performing some **action** on the element(s).
+
+- Basic syntax is: **$(selector).action()**
+
+  - A $ sign to define/access jQuery
+  - A (**selector**) to "query (or find)" HTML elements
+  - A jQuery **action**() to be performed on the element(s)
+
+- Examples
+
+  ```
+  $("p").hide() - hides all <p> elements.
+  $(".test").hide() - hides all elements with class="test".
+  $("#test").hide() - hides the element with id="test".
+  ```
+
+- **Notably, jQuery uses CSS syntax to select elements!**
+
+Looking back at what we typed above, we used jQuery **to select all elements with class="image"!**
+
+---
+
+Let's select the first image in this array and assign it to a variable.
+
+**In the Console, type:**
+
+```
+let firstImage = $(".image")[0]; [Enter]
+```
+
+Again, $(".image") will return an array of 12 image elements. We use square brackets [] to access a certain element of the array. Arrays index from 0, meaning [0] accesses the first element of the array, [1] accesses the second element, and so on.
+
+**Now, type:**
+
+```
+$(firstImage).hide(); [Enter]
+```
+
+The first smol kitten should have disappeared! Let's readd him/her:
+
+**Type:**
+
+```
+$(firstImage).show(); [Enter]
+```
+
+The smol kitten should have returned. :')
+
+---
+
