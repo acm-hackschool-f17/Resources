@@ -255,7 +255,7 @@ In certain languages, like C++, you have to be specify the **type** of a variabl
 #### Example
 
 ```
-var a = 5;		// a is an integer!
+var a = 5;	// a is an integer!
 let b = "cat";	// b is a constant string!
 var c = false;	// c is a boolean!
 ```
