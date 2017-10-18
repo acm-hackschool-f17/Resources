@@ -41,6 +41,7 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
 * Week 3: Learn Bootstrap and JavaScript
     * [Slides](http://tinyurl.com/hackschool17-session2-slides)
     * [Code](http://tinyurl.com/hackschool17-session2-code)
+    * [Bootstrap/JavaScript Review](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-2-README.md)
 * Week 4: Build an interactive photo gallery
 * Week 5: Intro to backend web development: Node.js
 * Week 6: Build your first web app
