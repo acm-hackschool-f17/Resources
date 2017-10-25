@@ -25,8 +25,17 @@
   - <a href="#LS2-jquery">jQuery</a>
     - <a href="#LS2-what-is-jquery">What is jQuery?</a>
     - <a href="#LS2-using-jquery">Using jQuery</a>
-
-
+- **<a href="#hack-session-2">Hack Session 2</a>**
+  - <a href="#HS2-getting-started">Getting Started</a>
+  - <a href="#HS2-creating-a-bootstrap-navbar">Creating a Bootstrap Navbar</a>
+    - <a href="#HS2-getting-started-navbar">Getting Started</a>
+    - <a href="#HS2-right-aligned-links">Right-Aligned Links</a>
+    - <a href="#HS2-fixing-the-navbar">Fixing the Navbar</a>
+  - <a href="#HS2-implementing-a-meme-generator">Implementing a Meme Generator</a>
+    - <a href="#HS2-getting-started-meme-gen">Getting Started</a>
+    - <a href="#HS2-setting-everything-up">Setting Everything Up</a>
+  - Useful JavaScript Syntax
+    - jQuery
 
 ## <a id="LS2-what-is-bootstrap">What is Bootstrap?</a>
 
