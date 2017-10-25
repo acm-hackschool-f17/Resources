@@ -1,5 +1,7 @@
 # Learn-Session-2-README
 
+**Hack Session 2** resources <a href="#hack-session-2">here</a>.
+
 ## Table of Contents
 
 - <a href="#LS2-what-is-bootstrap">What is Bootstrap?</a>
@@ -23,6 +25,8 @@
   - <a href="#LS2-jquery">jQuery</a>
     - <a href="#LS2-what-is-jquery">What is jQuery?</a>
     - <a href="#LS2-using-jquery">Using jQuery</a>
+
+
 
 ## <a id="LS2-what-is-bootstrap">What is Bootstrap?</a>
 
@@ -387,7 +391,7 @@ The smol kitten should have returned. :')
 
 ---
 
-# Hack Session 2
+# <a id="hack-session-2">Hack Session 2</a>
 
 ## Table of Contents
 
