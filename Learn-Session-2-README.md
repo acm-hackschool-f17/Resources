@@ -402,7 +402,7 @@ The smol kitten should have returned. :')
   - <a href="#HS2-fixing-the-navbar">Fixing the Navbar</a>
 - <a href="#HS2-implementing-a-meme-generator">Implementing a Meme Generator</a>
   - <a href="#HS2-getting-started-meme-gen">Getting Started</a>
-  - <a href="HS2-setting-everything-up">Setting Everything Up</a>
+  - <a href="#HS2-setting-everything-up">Setting Everything Up</a>
 - Useful JavaScript Syntax
   - jQuery
 
