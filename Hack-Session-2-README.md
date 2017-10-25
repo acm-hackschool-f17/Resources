@@ -147,5 +147,86 @@ To fix our navbar at the top or bottom of the page, all we have to do is add the
 
 **Save your HTML file**, and refresh. If you have scrollable content following your navbar, you'll notice the navbar stays at the top of the screen even while you scroll!
 
+## Implementing a Meme Generator
+
+Arguably, every good website needs a meme generator. Let's build one using the tools at our disposal (HTML, CSS, Javascript)!
+
 ---
+
+### Getting Started
+
+Make sure you have the following three files ready to be edited:
+
+- index.**html**
+- style.**css**
+- script.**js**
+
+Ensure that you have linked jQuery and all of your files to your HTML file in your `<head>` tags
+
+```
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+```
+
+---
+
+### Setting Everything Up
+
+First let's add the HTML elements we'll need for our meme generator.
+
+**In your HTML file,** add:
+
+```
+<div id="meme-image">
+</div>
+<input id="image-input" type="file" accept="image/*"/>
+<input id="caption-input" type="text" value="Enter a caption"/>
+<input id="submit-button" type="submit"/>
+```
+
+- We use `<input>` tags with the attribute `type="file"` to accept a user's files. We can further specify what files to accept using the `accept` attribute.
+  - Note that the `accept` attribute only applies to `<input>` tags with `type="file"`
+
+**In your CSS file,** add:
+
+```
+#meme-image {
+	background-image: url('http://i0.kym-cdn.com/entries/icons/original/000/022/138/reece.JPG');
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#image-input {
+	margin: 20px;
+	margin-left: 40px;
+}
+
+#caption-input {
+	margin-left: 40px;
+}
+
+#submit-button {
+	margin-left: 40px;
+}
+```
+
+---
+
+### Uploading Images
+
+**In your script.js file**, add:
+
+```
+function attachEventHandlers() {
+	
+}
+
+$('document').ready(function() {
+	attachEventHandlers();
+});
+```
 
