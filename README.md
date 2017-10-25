@@ -44,6 +44,8 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
     * [Code](http://tinyurl.com/hackschool17-session2-code)
     * [Bootstrap/JavaScript Review](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-2-README.md)
 * Week 4: Build an interactive photo gallery
+   * [Slides](https://docs.google.com/presentation/d/1r2t1w3aaB68EXRH-HV-6MBjW8jVqrWWpF0BGq3U28Z4/edit?usp=sharing)
+   * [Spec](http://tinyurl.com/hackschool17-spec-2)
 * Week 5: Intro to backend web development: Node.js
 * Week 6: Build your first web app
 * Week 7: Advanced backend topic: databases
