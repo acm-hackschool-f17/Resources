@@ -2,27 +2,27 @@
 
 ## Table of Contents
 - **Learn Session 2**
-	- <a href="#LS2-what-is-bootstrap">What is Bootstrap?</a>
-	- <a href="#LS2-why-use-bootstrap">Why Use Bootstrap?</a>
-	- <a href="#LS2-getting-bootstrap">Getting Bootstrap</a>
-	  - <a href="#LS2-bootstrap-cdn">Bootstrap CDN</a>
-	- <a href="#LS2-bootstrap-grid-system">Bootstrap Grid System</a>
-	  - <a href="#LS2-grid-classes">Grid Classes</a>
-	  - <a href="#LS2-useful-class-names">Useful Class Names</a>
-	    - <a href="#LS2-container">container</a>
-	    - <a href="#LS2-row">row</a>
-	    - <a href="#LS2-col">col-\*-\*</a>
-	  - <a href="LS2-grid-system-rules">Grid System Rules</a>
-	- Bootstrap Examples (for you to try)
-	  - <a href="#LS2-three-equal-columns">Three Equal Columns</a>
-	  - <a href="#mobile-and-desktop">Mobile and Desktop</a>
-	- <a href="#LS2-introduction-to-javascript">Introduction to Javascript</a>
-	  - <a href="#LS2-using-the-console">Using the Console</a>
-	  - <a href="#LS2-variables">Variables</a>
-	  - <a href="#LS2-functions">Functions</a>
-	  - <a href="#LS2-jquery">jQuery</a>
-	    - <a href="#LS2-what-is-jquery">What is jQuery?</a>
-	    - <a href="#LS2-using-jquery">Using jQuery</a>
+ - <a href="#LS2-what-is-bootstrap">What is Bootstrap?</a>
+ - <a href="#LS2-why-use-bootstrap">Why Use Bootstrap?</a>
+ - <a href="#LS2-getting-bootstrap">Getting Bootstrap</a>
+   - <a href="#LS2-bootstrap-cdn">Bootstrap CDN</a>
+ - <a href="#LS2-bootstrap-grid-system">Bootstrap Grid System</a>
+   - <a href="#LS2-grid-classes">Grid Classes</a>
+   - <a href="#LS2-useful-class-names">Useful Class Names</a>
+     - <a href="#LS2-container">container</a>
+     - <a href="#LS2-row">row</a>
+     - <a href="#LS2-col">col-\*-\*</a>
+   - <a href="LS2-grid-system-rules">Grid System Rules</a>
+ - Bootstrap Examples (for you to try)
+   - <a href="#LS2-three-equal-columns">Three Equal Columns</a>
+   - <a href="#mobile-and-desktop">Mobile and Desktop</a>
+ - <a href="#LS2-introduction-to-javascript">Introduction to Javascript</a>
+   - <a href="#LS2-using-the-console">Using the Console</a>
+   - <a href="#LS2-variables">Variables</a>
+   - <a href="#LS2-functions">Functions</a>
+   - <a href="#LS2-jquery">jQuery</a>
+     - <a href="#LS2-what-is-jquery">What is jQuery?</a>
+     - <a href="#LS2-using-jquery">Using jQuery</a>
 - **Hack Session 2**
   - <a href="#HS2-getting-started">Getting Started</a>
   - <a href="#HS2-creating-a-bootstrap-navbar">Creating a Bootstrap Navbar</a>
@@ -584,14 +584,11 @@ First let's add the HTML elements we'll need for our meme generator.
 
 ```
 <div id="meme-image">
+		<p id="caption">Enter text</p>
 </div>
-<input id="image-input" type="file" accept="image/*"/>
 <input id="caption-input" type="text" value="Enter a caption"/>
 <input id="submit-button" type="submit"/>
 ```
-
-- We use `<input>` tags with the attribute `type="file"` to accept a user's files. We can further specify what files to accept using the `accept` attribute.
-  - Note that the `accept` attribute only applies to `<input>` tags with `type="file"`
 
 **In your CSS file,** add:
 
@@ -605,12 +602,21 @@ First let's add the HTML elements we'll need for our meme generator.
 	margin-left: 40px;
 }
 
-#image-input {
-	margin: 20px;
-	margin-left: 40px;
+#caption {
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+	font: bold 50px Impact, Serif;
+	color: white;
+	text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000; 
 }
 
 #caption-input {
+	margin: 20px;
 	margin-left: 40px;
 }
 
@@ -627,7 +633,11 @@ First let's add the HTML elements we'll need for our meme generator.
 
 ```
 function attachEventHandlers() {
-	
+	$("#submit-button").on('click', updatePhoto);
+}
+
+function updatePhoto(event) {
+  	// TODO
 }
 
 $('document').ready(function() {
