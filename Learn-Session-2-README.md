@@ -2,27 +2,27 @@
 
 ## Table of Contents
 - **Learn Session 2**
- - <a href="#LS2-what-is-bootstrap">What is Bootstrap?</a>
- - <a href="#LS2-why-use-bootstrap">Why Use Bootstrap?</a>
- - <a href="#LS2-getting-bootstrap">Getting Bootstrap</a>
-   - <a href="#LS2-bootstrap-cdn">Bootstrap CDN</a>
- - <a href="#LS2-bootstrap-grid-system">Bootstrap Grid System</a>
-   - <a href="#LS2-grid-classes">Grid Classes</a>
-   - <a href="#LS2-useful-class-names">Useful Class Names</a>
-     - <a href="#LS2-container">container</a>
-     - <a href="#LS2-row">row</a>
-     - <a href="#LS2-col">col-\*-\*</a>
-   - <a href="LS2-grid-system-rules">Grid System Rules</a>
- - Bootstrap Examples (for you to try)
-   - <a href="#LS2-three-equal-columns">Three Equal Columns</a>
-   - <a href="#mobile-and-desktop">Mobile and Desktop</a>
- - <a href="#LS2-introduction-to-javascript">Introduction to Javascript</a>
-   - <a href="#LS2-using-the-console">Using the Console</a>
-   - <a href="#LS2-variables">Variables</a>
-   - <a href="#LS2-functions">Functions</a>
-   - <a href="#LS2-jquery">jQuery</a>
-     - <a href="#LS2-what-is-jquery">What is jQuery?</a>
-     - <a href="#LS2-using-jquery">Using jQuery</a>
+	 - <a href="#LS2-what-is-bootstrap">What is Bootstrap?</a>
+	 - <a href="#LS2-why-use-bootstrap">Why Use Bootstrap?</a>
+	 - <a href="#LS2-getting-bootstrap">Getting Bootstrap</a>
+	   - <a href="#LS2-bootstrap-cdn">Bootstrap CDN</a>
+	 - <a href="#LS2-bootstrap-grid-system">Bootstrap Grid System</a>
+	   - <a href="#LS2-grid-classes">Grid Classes</a>
+	   - <a href="#LS2-useful-class-names">Useful Class Names</a>
+	     - <a href="#LS2-container">container</a>
+	     - <a href="#LS2-row">row</a>
+	     - <a href="#LS2-col">col-\*-\*</a>
+	   - <a href="LS2-grid-system-rules">Grid System Rules</a>
+	 - Bootstrap Examples (for you to try)
+	   - <a href="#LS2-three-equal-columns">Three Equal Columns</a>
+	   - <a href="#mobile-and-desktop">Mobile and Desktop</a>
+	 - <a href="#LS2-introduction-to-javascript">Introduction to Javascript</a>
+	   - <a href="#LS2-using-the-console">Using the Console</a>
+	   - <a href="#LS2-variables">Variables</a>
+	   - <a href="#LS2-functions">Functions</a>
+	   - <a href="#LS2-jquery">jQuery</a>
+	     - <a href="#LS2-what-is-jquery">What is jQuery?</a>
+	     - <a href="#LS2-using-jquery">Using jQuery</a>
 - **Hack Session 2**
   - <a href="#HS2-getting-started">Getting Started</a>
   - <a href="#HS2-creating-a-bootstrap-navbar">Creating a Bootstrap Navbar</a>
