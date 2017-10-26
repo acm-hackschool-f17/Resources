@@ -32,6 +32,7 @@
   - <a href="#HS2-implementing-a-meme-generator">Implementing a Meme Generator</a>
     - <a href="#HS2-getting-started-meme-gen">Getting Started</a>
     - <a href="#HS2-setting-everything-up">Setting Everything Up</a>
+    - <a href="#HS2-entering-a-caption">Entering a Caption</a>
   - Useful JavaScript Syntax
     - jQuery
 
@@ -625,9 +626,11 @@ First let's add the HTML elements we'll need for our meme generator.
 }
 ```
 
+- We use the `text-shadow` property to make it appear that our text has a border.
+
 ------
 
-### Uploading Images
+### <a id="HS2-entering-a-caption">Entering a Caption</a>
 
 **In your script.js file**, add:
 
@@ -644,4 +647,27 @@ $('document').ready(function() {
 	attachEventHandlers();
 });
 ```
+
+- In our "main()" function we call the function attachEventHandlers()
+- We add an event handler to our submit button that calls the function `updatePhoto()` after the button is clicked.
+
+Let's write the `updatePhoto()` function!
+
+**In your script.js file**, add:
+
+```
+function updatePhoto(event) {
+	var caption = $("#caption-input").val();
+	$("#caption").html(caption);
+}
+```
+
+- `#caption-input` grabs our `<input>` element, and the function `val()` gets its value (a user-entered string).
+- We use the `.html()` function to alter the raw HTML content inside our `<p>` tags.
+
+Easy at that!
+
+**Save all of your files**, and try it out:
+
+<img src="https://lh4.googleusercontent.com/UP0_ot-L3Nte1drN8Keuhoe8DwnGpjwGNS4DBwUtF5rq57eo4lzg3mbSTxLIgeBvbStYjpij80VLyUl8_M2zGrELVWhGGVFkY3LD3PD3YmDntciLhdMh847eBAM-RCfZ9dD1xco6" width="700px"/>
 
