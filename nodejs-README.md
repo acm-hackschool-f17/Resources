@@ -2,7 +2,8 @@
 
 ## Table of Contents:
 ### Learn Session:
-1. Installing Node.JS
+1. What is Node.js?
+2. Installing Node.js
 2. Creating a new node.js application
    * [Hello, World Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
 
