@@ -2,9 +2,13 @@
 
 ## Table of Contents:
 ## Learn Session:
-1. What is Node.js?
+1. What is Node.js and NPM?
 2. [Installing Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#installing-nodejs)
 3. [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
+
+### What is Node.js and NPM?
+* Node.js is a server-side platform for JavaScript that can pass data from server to clientside code (ie HTML, Handlebars, Jade, etc.). It can also render webpages dynamically to build full stack web applications.
+* NPM is the Node Package Manager. It basically makes it easy to install and use external libraries in your application. You can install external packages with `npm install <package-name> --save` to install and add it to your `package.json`.
 
 ### Installing Node.js
 #### On Windows
