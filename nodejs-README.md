@@ -55,11 +55,11 @@
   * To do this with commands:
     1. Open Command Prompt/Terminal
     2. Run the following commands:
-      ```
-      cd Desktop
-      mkdir node-tutorial
-      cd node-tutorial
-      ```
+         ```
+         cd Desktop
+         mkdir node-tutorial
+         cd node-tutorial
+         ```
 2. On Command Prompt/Terminal, run `npm init`
    * Go through the steps in this including setting a project name, description, version, etc. Feel free to leave things blank because not everything is neccesary.
      ```
