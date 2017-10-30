@@ -1,9 +1,9 @@
 # Learn Session 3: Backend Web Development with Node.JS
 
 ## Table of Contents:
-### Learn Session:
+## Learn Session:
 1. What is Node.js?
-2. Installing Node.js
+2. [Installing Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#installing-nodejs)
 3. [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
 
 ### Installing Node.js
