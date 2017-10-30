@@ -2,7 +2,7 @@
 
 ## Table of Contents:
 ## Learn Session:
-1. What is Node.js and NPM?
+1. [What is Node.js and NPM?](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#what-is-nodejs-and-npm)
 2. [Installing Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#installing-nodejs)
 3. [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
 
