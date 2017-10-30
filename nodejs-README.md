@@ -12,14 +12,14 @@
 
 1. Go to https://nodejs.org/en/
 2. Click on green "8.8.1 Current" button to download installer
-3. Install the downloaded `.msi` file
+3. Install the downloaded `.msi` file; no need to change any options
 
 #### On macOS and Linux-based systems
 
 1. Go to https://github.com/creationix/nvm
-2. Copy the instructions for Wget, and run it in the command line
+2. Copy the instructions for curl, and run it in the command line
    ```
-   $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+   $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
    => Downloading nvm from git to '/home/your-username/.nvm'
    => Cloning into '/home/your-username/.nvm'...
    ...
@@ -34,7 +34,12 @@
    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
    ```
-3. Close the terminal and relaunch it, and run `nvm install 8`
+   *Note:* if that command fails with `curl: command not found`, try the following with Wget instead:
+   ```
+   $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+   ```
+3. **Important:** Close the terminal and relaunch it
+4. `nvm install 8`
    ```
    $ nvm install 8
    Downloading and installing node v8.8.1...
@@ -44,6 +49,7 @@
    Checksums matched!
    Now using node v8.8.1 (npm v5.4.2)
    ```
+   *Note:* If that command fails with `nvm: command not found`, try `echo -e '\nsource ~/.bashrc' >> ~/.bash_profile`, and then close and relaunch the terminal and `nvm install 8` again.
 
 ### Creating a new node.js application
 #### Steps:
