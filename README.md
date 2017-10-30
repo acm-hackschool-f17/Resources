@@ -47,6 +47,8 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
    * [Slides](https://docs.google.com/presentation/d/1r2t1w3aaB68EXRH-HV-6MBjW8jVqrWWpF0BGq3U28Z4/edit?usp=sharing)
    * [Spec](http://tinyurl.com/hackschool17-spec-2)
 * Week 5: Intro to backend web development: Node.js
+   * [Slides](https://docs.google.com/a/g.ucla.edu/presentation/d/1FSnDzv5pqx_z3kASIP1T6GiKT-IQxnfAYim4jhZUer4/edit?usp=sharing)
+   * [Node.js Setup and Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md)
 * Week 6: Build your first web app
 * Week 7: Advanced backend topic: databases
 * Week 8: Finish your first web app
