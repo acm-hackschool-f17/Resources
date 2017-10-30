@@ -1,4 +1,4 @@
-# Learn Session 3: Backend Web Development with Node.JS
+# Learn Session 3: Backend Web Development with Node.js
 
 ## Table of Contents:
 ## Learn Session:
