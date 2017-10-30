@@ -4,8 +4,7 @@
 ### Learn Session:
 1. What is Node.js?
 2. Installing Node.js
-3. Creating a new node.js application
-   * [Hello, World Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
+3. [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
 
 ### Installing Node.js
 #### On Windows
@@ -52,9 +51,16 @@
    *Note:* If that command fails with `nvm: command not found`, try `echo -e '\nsource ~/.bashrc' >> ~/.bash_profile`, and then close and relaunch the terminal and `nvm install 8` again.
 
 ### Creating a new node.js application
-#### Steps:
-1. On your command line navigate to a new folder where you want to save your project files.
-2. `npm init`
+1. On your command line navigate to a new folder will make now where you want to save your project files.
+  * To do this with commands:
+    1. Open Command Prompt/Terminal
+    2. Run the following commands:
+      ```
+      cd Desktop
+      mkdir node-tutorial
+      cd node-tutorial
+      ```
+2. On Command Prompt/Terminal, run `npm init`
    * Go through the steps in this including setting a project name, description, version, etc. Feel free to leave things blank because not everything is neccesary.
      ```
      $ npm init
@@ -87,7 +93,7 @@
      Is this ok? (yes)
      ```
    * A file called `package.json` will be created. `package.json` is a file most importantly listing the external libraries your project has installed. Libraries are installed into a folder in your project directory NPM makes called `node_modules`.
-3. `npm install express --save`
+3. On Command Prompt/Terminal, run `npm install express --save`
    * This adds a new dependency to your `package.json` called express (a library to simplify creating an HTTP server).
    * This code block will be added near the bottom of `package.json`
      ```
@@ -95,8 +101,8 @@
       "express": "^4.16.2"
      }
      ```
-4. `touch server.js`
-5. Add the following code to `server.js`.
+4. On Command Prompt/Terminal, run `touch server.js`
+5. Add the following code to the newly created `server.js`.
     ```
     // Imports the library "express"
     const express = require('express');
@@ -125,7 +131,7 @@
       console.log("Listening on port 3000");
     });
     ```
-6. `node server.js`
+6. On Command Prompt/Terminal, run `node server.js`
    * this should run and stall your command prompt, which is correct behavior
      ```
      $ node server.js
@@ -133,3 +139,36 @@
      ```
 7. Go to http://localhost:3000/ to see your server rendering "Hello world" on the page!
 8. Go to http://localhost:3000/burrito to see your server rendering "Hello I am a burrito"!
+9. On Command Prompt/Terminal, run `npm install hbs --save`
+10. Add this line below `var app = express();`:
+    ```
+    app.set('view engine', 'hbs');
+    ```
+11. On Command Prompt/Terminal, run 
+    ```
+    mkdir views
+    touch views/home.hbs
+    ```
+12. Place the following code into the file `home.hbs` which should be in the folder `views`.
+    ```
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>{{title}}</title>
+    </head>
+    <body>
+      {{content}}
+    </body>
+    </html>
+    ```
+11. Replace your root endpoint code with:
+    ```
+    app.get('/', function (request, response) {
+      response.render('home', {
+        title: "Title from Server",
+        content: "This is a sentence sent from the server."
+      });
+    });
+    ```
+12. Stop your server by doing `Ctrl+C`. Now restart your server with `node server.js`.
+13. Go to http://localhost:3000/ to see the title of the tab be "Title from Server" and the text shown be "This is a sentence sent from the server." You've just successfully sent data from a server to your website!
