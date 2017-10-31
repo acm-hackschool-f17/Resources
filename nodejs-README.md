@@ -136,6 +136,7 @@
     });
     ```
 6. On Command Prompt/Terminal, run `node server.js`
+   * this runs the code in server.js which starts a server
    * this should run and stall your command prompt, which is correct behavior
      ```
      $ node server.js
@@ -144,6 +145,7 @@
 7. Go to http://localhost:3000/ to see your server rendering "Hello world" on the page!
 8. Go to http://localhost:3000/burrito to see your server rendering "Hello I am a burrito"!
 9. On Command Prompt/Terminal, run `npm install hbs --save`
+   * This installs [Handlebars.js](http://handlebarsjs.com/), a templating engine that lets you write HTML more like a programming language (ie passing in variables and writing loops)
 10. Add this line below `var app = express();`:
     ```
     app.set('view engine', 'hbs');
@@ -153,6 +155,7 @@
     mkdir views
     touch views/home.hbs
     ```
+    * The `.hbs` extension stands for a handlebars file.
 12. Place the following code into the file `home.hbs` which should be in the folder `views`.
     ```
     <!DOCTYPE html>
@@ -165,6 +168,7 @@
     </body>
     </html>
     ```
+    * Things in curly brackets like `{{ something }}` represent a variable in Handlebars.
 11. Replace your root endpoint code with:
     ```
     app.get('/', function (request, response) {
