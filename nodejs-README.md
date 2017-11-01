@@ -10,6 +10,7 @@
 4. [Installing Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#installing-nodejs)
 5. [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
 6. [Example Web Application: E-Library](https://github.com/acm-hackschool-f17/session-3-learn)
+7. [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 
 ### <a id="fvb">Front-end vs. Back-end</a>
 
