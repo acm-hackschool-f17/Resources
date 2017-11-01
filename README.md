@@ -49,13 +49,19 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
 * Week 5: Intro to backend web development: Node.js
    * [Slides](https://docs.google.com/presentation/d/1gZQVm8quus5uuoqkaZKu8ktjhSpQC_Evp2l9YnzwYRw/edit?usp=sharing)
    * [Node.js Setup and Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md)
+   * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 * Week 6: Build your first web app
+   * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 * Week 7: Advanced backend topic: databases
+   * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 * Week 8: Finish your first web app
+   * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 
 ## Essential Links 
 
 * [Hackschool Fall 2017 on GitHub](https://github.com/acm-hackschool-f17)
+
+* [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 
 * [ACM website](http://www.uclaacm.com/)
 
