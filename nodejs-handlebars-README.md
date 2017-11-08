@@ -243,6 +243,8 @@ A Web *client* is the requesting program associated with the user. The Web brows
 
 ---
 
+# Hack Session 3
+
 ## <a id="HS3-handlebars">Handlebars.js</a>
 
 Handlebars is a logic-less templating engine that **dynamically** generates your HTML page.
