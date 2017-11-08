@@ -48,7 +48,7 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
    * [Spec](http://tinyurl.com/hackschool17-spec-2)
 * Week 5: Intro to backend web development: Node.js
    * [Slides](https://docs.google.com/presentation/d/1gZQVm8quus5uuoqkaZKu8ktjhSpQC_Evp2l9YnzwYRw/edit?usp=sharing)
-   * [Node.js Setup and Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md)
+   * [Node.js and Handlebars.js Setup and Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-handlebars-README.md)
    * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 * Week 6: Build your first web app
    * [Slides](https://docs.google.com/presentation/d/1IZ9FLMOWFWtitWH4UVtq9dIwcmMLmrWzaWHvDDFGzeE/edit)
