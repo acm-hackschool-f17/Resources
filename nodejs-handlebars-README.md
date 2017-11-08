@@ -701,7 +701,7 @@ response.render('home', {
 
 ---
 
-### <a id="if-blocks">If Blocks</a>
+### <a id="HS3-if-blocks">If Blocks</a>
 
 You can use the `if` helper to conditionally render a template. If its argument returns `false`, `undefined`, `null`, `""`, `0`, or `[]`, Handlebars will not render the template.
 
