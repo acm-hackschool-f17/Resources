@@ -6,9 +6,9 @@
     - <a href="#front-end">Front-end</a>
     - <a href="#back-end">Back-end</a>
   - <a href="#what-is-a-server">What is a Server?</a>
-  - [What is Node.js and NPM?](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#what-is-nodejs-and-npm)
-  - [Installing Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#installing-nodejs)
-  - [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#creating-a-new-nodejs-application)
+  - [What is Node.js and NPM?](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-handlebars-README.md#what-is-nodejs-and-npm)
+  - [Installing Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-handlebars-README.md#installing-nodejs)
+  - [Creating a new node.js application](https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-handlebars-README.md#creating-a-new-nodejs-application)
   - [Example Web Application: E-Library](https://github.com/acm-hackschool-f17/session-3-learn)
   - [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 - **Hack Session**:
