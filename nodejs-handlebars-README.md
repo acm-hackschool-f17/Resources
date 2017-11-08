@@ -502,7 +502,7 @@ app.set('views', 'my awesome views');
 
 ---
 
-### <a id="HS3-using-handlerbars-expressions">Using Handlebars Expressions</a>
+### <a id="HS3-using-handlebars-expressions">Using Handlebars Expressions</a>
 
 We can finally use Handlebars! How does it work?
 
@@ -701,7 +701,7 @@ response.render('home', {
 
 ---
 
-### <a id="if blocks">If Blocks</a>
+### <a id="if-blocks">If Blocks</a>
 
 You can use the `if` helper to conditionally render a template. If its argument returns `false`, `undefined`, `null`, `""`, `0`, or `[]`, Handlebars will not render the template.
 
