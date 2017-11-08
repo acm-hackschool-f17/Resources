@@ -264,7 +264,7 @@ This is where JavaScript templating engines come to the rescue and become so use
 
 ### <a id="HS3-hgetting-started">Getting Started</a>
 
-1. **Make sure you have installed <a href="https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-README.md#installing-nodejs">node.js and NPM</a>.**
+1. **Make sure you have installed <a href="https://github.com/acm-hackschool-f17/Resources/blob/master/nodejs-handlebars-README.md#installing-nodejs">node.js and NPM</a>.**
 
    ---
 
