@@ -92,6 +92,7 @@ A Web *client* is the requesting program associated with the user. The Web brows
    => Appending bash_completion source string to /home/your-username/.bashrc
    => Close and reopen your terminal to start using nvm or run the following to use it now:
    ```
+   Then run the following 3 lines together:
    ```
    $ export NVM_DIR="$HOME/.nvm"
      [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
