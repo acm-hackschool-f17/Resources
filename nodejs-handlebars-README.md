@@ -91,10 +91,11 @@ A Web *client* is the requesting program associated with the user. The Web brows
    => Appending nvm source string to /home/your-username/.bashrc
    => Appending bash_completion source string to /home/your-username/.bashrc
    => Close and reopen your terminal to start using nvm or run the following to use it now:
-
-   export NVM_DIR="$HOME/.nvm"
-   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+   ```
+   ```
+   $ export NVM_DIR="$HOME/.nvm"
+     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+     [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
    ```
    *Note:* if that command fails with `curl: command not found`, try the following with Wget instead:
    ```
