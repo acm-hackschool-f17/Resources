@@ -8,6 +8,7 @@
 3. Setting up MySQL
 4. Sequelize
     - What is Sequelize?
+    - How to integrate with Node.js
     - How to use
 
 ### Logistics
@@ -105,24 +106,33 @@ We'll be using Docker to run MySQL.
     ![docker ps](images/docker-ps.png "docker ps")
 
 * To stop the database from running, type `docker stop bruinplay-mysql`
+* To restart a currently existing container (ie you have't removed it), type `docker start bruinplay-mysql`
 * To remove the container and uninstall MySQL in that container type `docker rm bruinplay-mysql` 
 
 ## [Sequelize](http://docs.sequelizejs.com/): How to include it in your project
 In your node.js project directory, do the following steps:
-1. Run `npm install mysql2 --save`
-2. Run `npm install sequelize --save`
-3. In your `server.js` or app entry point include sequelize
+1. Make sure you are running MySQL in Docker either by starting it for the first time with
+    ```
+    docker run --name bruinplay-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0
+    ```
+   or restarting a stopped instance with
+    ```
+    docker start bruinplay-mysql
+    ```
+2. Run `npm install mysql2 --save`
+3. Run `npm install sequelize --save`
+4. In your `server.js` or app entry point include sequelize
     ```
     const Sequelize = require('sequelize');
     ```
-4. In `server.js` configure your node app to work with the currently running database connection
+5. In `server.js` configure your node app to work with the currently running database connection
     ```
     const sequelize = new Sequelize('mysql', 'root', "my-secret-pw", {
         host: 'localhost',
         dialect: 'mysql'
     });
     ```
-5. In `server.js` make the actual connection from your app to the database
+6. In `server.js` make the actual connection from your app to the database
     ```
     sequelize
         .authenticate()
@@ -133,5 +143,68 @@ In your node.js project directory, do the following steps:
             console.error('Unable to connect to the database:', err);
         });
     ```
-6. Start using Sequelize to create, read, update, or delete data in your MySQL database!
+7. Start using Sequelize to create, read, update, or delete data in your MySQL database!
     * Docs: http://docs.sequelizejs.com/
+
+## How to use Sequelize
+### Create a database table:
+We start off by first creating a database table:
+```
+var Orders = sequelize.define('orders', {
+	order_id:    {type: Sequelize.INTEGER},
+	customer_id: {type: Sequelize.INTEGER},
+	order_date:  {type: Sequelize.DATE},
+	amount:      {type: Sequelize.DOUBLE},
+});
+```
+Here we are making a table named `orders` internally, that we'll refer to as `Orders` in our node app. It has 4 columns, `order_id` which contains integers, `customer_id` which contains integers, `order_date` which contains a Date type, and `amount` containing doubles. 
+
+Then we can start using the empty table we just made! 
+
+### There are 4 basic operations databases can have: CRUD
+- C: Create
+- R: Read
+- U: Update
+- D: Destroy
+
+### Create
+```
+Orders.create({
+	order_id: 558,
+	customer_id: 101,
+	order_date: new Date(),
+	amount: 12.00
+}).then(function(newOrder) {
+	console.log("Inserted new order with id 558" + newOrder);
+});
+```
+### Read
+```
+Orders.findAll({
+	where: {
+	    customer_id: 101
+	}
+}).then(function(orders) {
+	console.log("Found all orders where customer_id is 101: " + orders);
+});
+```
+### Update
+```
+Orders.findAll({
+	where: {
+	    customer_id: 101
+	}
+}).then(function(orders) {
+	
+});
+```
+### Destroy
+```
+Order.findAll({
+	where: {
+	    customer_id: 101
+	}
+}).then(function(orders) {
+	orders.destroy();
+});
+```
