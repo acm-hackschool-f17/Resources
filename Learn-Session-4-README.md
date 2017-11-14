@@ -148,7 +148,6 @@ In your node.js project directory, do the following steps:
 
 ## How to use Sequelize
 * You can put the following code in server.js.
-
 ### Create a database table:
 We start off by first creating a database table:
 ```
