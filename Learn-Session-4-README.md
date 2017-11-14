@@ -104,6 +104,8 @@ We'll be using Docker to run MySQL.
 3. Type `docker ps`. Your Docker container should be running MySQL and you should see something like:
     ![docker ps](images/docker-ps.png "docker ps")
 
+* To stop the database from running, type `docker stop bruinplay-mysql`
+* To remove the container and uninstall MySQL in that container type `docker rm bruinplay-mysql` 
 
 ## [Sequelize](http://docs.sequelizejs.com/): How to include it in your project
 In your node.js project directory, do the following steps:
