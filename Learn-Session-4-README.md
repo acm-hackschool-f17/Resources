@@ -1,5 +1,16 @@
 # Hackschool Learn Session 4: Relational Databases
 
+## Table of Contents:
+1. Logistics
+2. Introduction to Docker
+    - What is Docker?
+    - Installation
+3. Setting up MySQL
+4. Sequelize
+    - What is Sequelize?
+    - How to use
+
+### Logistics
 **Location**: Covel 227
 
 **Time:** 6:15 - 8:15
@@ -10,15 +21,7 @@
 
 **Slides:**
 
-- [Session 4 - Relational Databases]\(TBD)
-
-**Cheat Sheets:**
-
-- TBD
-
-**Course Overview Table of Contents**:
-
-- [Course Schedule](https://github.com/acm-hackschool-f17/Resources/blob/master/README.md#basic-curriculum)
+- [Session 4 - Relational Databases](https://docs.google.com/presentation/d/1vjVnIyq-kgLSYtG5BeMeocWSXk8OgCMgRpbjlzveod8/edit)
 
 **Mentor Voting Form**:
 
@@ -26,9 +29,9 @@
 
 **Attendance Code:** TBD
 
-## What we'll be learning today
+**Course Overview Table of Contents**:
 
-- TBD
+- [Course Schedule](https://github.com/acm-hackschool-f17/Resources/blob/master/README.md#basic-curriculum)
 
 ## What is Docker?
 
@@ -88,3 +91,45 @@ Server:
 ```
 
 All set!
+
+## Setting up MySQL
+We'll be using Docker to run MySQL. 
+### Steps:
+1. Open up Terminal/Command Prompt
+2. Run the following command which installs and starts running your database: 
+    ```
+    docker run --name bruinplay-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0
+    ```
+    You will see a long hash output, for example `bc6635833ed86be942067e0641df0bd3125447613e38c0b5cece9991f671c3ff`. The content of this text doesn't matter.
+3. Type `docker ps`. Your Docker container should be running MySQL and you should see something like:
+    ![docker ps](images/docker-ps.png "docker ps")
+
+
+## [Sequelize](http://docs.sequelizejs.com/): How to include it in your project
+In your node.js project directory, do the following steps:
+1. Run `npm install mysql2 --save`
+2. Run `npm install sequelize --save`
+3. In your `server.js` or app entry point include sequelize
+    ```
+    const Sequelize = require('sequelize');
+    ```
+4. In `server.js` configure your node app to work with the currently running database connection
+    ```
+    const sequelize = new Sequelize('mysql', 'root', "my-secret-pw", {
+        host: 'localhost',
+        dialect: 'mysql'
+    });
+    ```
+5. In `server.js` make the actual connection from your app to the database
+    ```
+    sequelize
+        .authenticate()
+        .then(function() {
+            console.log('Connection has been established successfully.');
+        })
+        .catch(function(err) {
+            console.error('Unable to connect to the database:', err);
+        });
+    ```
+6. Start using Sequelize to create, read, update, or delete data in your MySQL database!
+    * Docs: http://docs.sequelizejs.com/
