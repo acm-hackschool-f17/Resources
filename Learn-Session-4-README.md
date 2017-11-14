@@ -143,10 +143,12 @@ In your node.js project directory, do the following steps:
             console.error('Unable to connect to the database:', err);
         });
     ```
-7. Start using Sequelize to create, read, update, or delete data in your MySQL database!
+7. Start using Sequelize in `server.js` to create, read, update, or delete data in your MySQL database! 
     * Docs: http://docs.sequelizejs.com/
 
 ## How to use Sequelize
+* You can put the following code in server.js.
+
 ### Create a database table:
 We start off by first creating a database table:
 ```
@@ -170,41 +172,46 @@ Then we can start using the empty table we just made!
 ### Create
 ```
 Orders.create({
-	order_id: 558,
-	customer_id: 101,
-	order_date: new Date(),
-	amount: 12.00
+    order_id: 558,
+    customer_id: 101,
+    order_date: new Date(),
+    amount: 12.00
 }).then(function(newOrder) {
-	console.log("Inserted new order with id 558" + newOrder);
+    console.log("Inserted new order with id 558" + newOrder);
 });
 ```
 ### Read
 ```
 Orders.findAll({
-	where: {
-	    customer_id: 101
-	}
+    where: {
+        customer_id: 101
+    }
 }).then(function(orders) {
-	console.log("Found all orders where customer_id is 101: " + orders);
+    console.log("Found all orders where customer_id is 101: " + orders);
 });
 ```
 ### Update
 ```
 Orders.findAll({
-	where: {
-	    customer_id: 101
-	}
-}).then(function(orders) {
-	
+    where: {
+        order_id: 555
+    }, 
+    limit: 1
+}).then(function(singleOrder) {
+    return singleOrder.update({
+        amount: 100
+    });
+}).then(function(order) {
+    console.log("Order #555's price is now $100: " + orders);
 });
 ```
 ### Destroy
 ```
 Order.findAll({
-	where: {
-	    customer_id: 101
-	}
+    where: {
+        customer_id: 101
+    }
 }).then(function(orders) {
-	orders.destroy();
+    orders.destroy();
 });
 ```
