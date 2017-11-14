@@ -55,6 +55,7 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
    * [E-library Code](https://github.com/acm-hackschool-f17/session-3-hack)
    * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 * Week 7: Advanced backend topic: databases
+   * [E-library with Database Code](https://github.com/acm-hackschool-f17/session-4-learn)
    * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
 * Week 8: Finish your first web app
    * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
