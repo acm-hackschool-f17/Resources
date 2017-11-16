@@ -27,7 +27,7 @@
 **E-Library Demo: How to Apply Sequelize**
 - [Code](https://github.com/acm-hackschool-f17/session-4-learn)
 
-**Attendance Code:** TBD
+**Attendance Code:** #SaveSoundcloud
 
 **Course Overview Table of Contents**:
 
