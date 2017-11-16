@@ -9,7 +9,7 @@
 4. Sequelize
     - What is Sequelize?
     - How to integrate with Node.js
-    - How to use
+    - How to use Sequelize
 
 ### Logistics
 **Location**: Covel 227
@@ -24,9 +24,8 @@
 
 - [Session 4 - Relational Databases](https://docs.google.com/presentation/d/1vjVnIyq-kgLSYtG5BeMeocWSXk8OgCMgRpbjlzveod8/edit)
 
-**Mentor Voting Form**:
-
-- [Mentor Voting Form]\(TBD)
+**E-Library Demo: How to Apply Sequelize**
+- [Code](https://github.com/acm-hackschool-f17/session-4-learn)
 
 **Attendance Code:** TBD
 
