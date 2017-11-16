@@ -1,15 +1,15 @@
 # Hackschool Learn Session 4: Relational Databases
 
 ## Table of Contents:
-1. Logistics
-2. Introduction to Docker
+1. [Logistics](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md#logistics)
+2. [Introduction to Docker](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md#what-is-docker)
     - What is Docker?
     - Installation
-3. Setting up MySQL
+3. [Setting up MySQL](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md#setting-up-mysql)
 4. Sequelize
-    - What is Sequelize?
-    - How to integrate with Node.js
-    - How to use Sequelize
+    - [What is Sequelize?](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md#what-is-sequelize)
+    - [How to integrate with Node.js](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md#how-to-include-it-in-your-project)
+    - [How to use Sequelize](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md#how-to-use-sequelize)
 
 ### Logistics
 **Location**: Covel 227
@@ -108,7 +108,10 @@ We'll be using Docker to run MySQL.
 * To restart a currently existing container (ie you have't removed it), type `docker start bruinplay-mysql`
 * To remove the container and uninstall MySQL in that container type `docker rm bruinplay-mysql` 
 
-## [Sequelize](http://docs.sequelizejs.com/): How to include it in your project
+## What is [Sequelize](http://docs.sequelizejs.com/)?
+- It is a library that can work with any relational database and abstracts and handles all the raw SQL queries that you'd traditionally made. It makes your life easier working with databases!
+
+## How to include it in your project
 In your node.js project directory, do the following steps:
 1. Make sure you are running MySQL in Docker either by starting it for the first time with
     ```
