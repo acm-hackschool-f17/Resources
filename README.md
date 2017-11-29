@@ -59,8 +59,10 @@ Each week, we will alternate between "Learn" and "Hack" sessions. During Learn s
    * [Docker and MySQL Setup + Tutorial](https://github.com/acm-hackschool-f17/Resources/blob/master/Learn-Session-4-README.md)
    * [E-library Code (with Database)](https://github.com/acm-hackschool-f17/session-4-learn)
    * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
-* Week 8: Finish your first web app
+* Week 9: Finish your first web app
+   * [Slides](https://docs.google.com/presentation/d/1pehGfdsiQjao58tpPrmfd4sV5Fxm-uAhfQ-SxjWwP3g/edit#slide=id.p)
    * [Final Project Spec](https://github.com/acm-hackschool-f17/BruinPlay)
+   * [***Project Submission Link***](https://tinyurl.com/hackschool17-submit)
 
 ## Essential Links 
 
